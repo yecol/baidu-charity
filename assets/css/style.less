@@ -1,0 +1,275 @@
+@import "reset.css";
+
+@linkblue:#1F82E1;
+@linkgrey:#848484;
+@fontwhite:#FAFAFA;
+@bluebg:#01a8d2;
+@redbg:#E8534F;
+@yaheifamily:"Microsoft Yahei",'Arial';
+
+body {
+	font-family: @yaheifamily;
+	vertical-align: baseline;
+}
+
+.clearfix{
+	&:before,
+  	&:after {
+  	  content: " ";
+  	  display: table;
+  	}
+  	&:after {
+  	  clear: both;
+  	}
+}
+.container{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1280px;
+}
+.header{
+	height: 100px;
+	background: url("../img/logo-baidu.png") 50px 20px no-repeat;
+	ul{
+		padding-top: 60px;
+		padding-left: 800px;
+		li{
+			font-weight: bold;
+			font-size: 18px;
+			line-height: 20px;
+			list-style: none;
+			display: inline-block;
+			margin-right: 60px;
+			a{
+				color: @linkgrey;
+				text-decoration: none;
+				&.active,&:hover{
+					color:@linkblue;
+				}
+			}
+		}
+	}
+}
+.section{
+	display: block;
+}
+
+.container{
+	padding-top: 60px;
+}
+.mid-container{
+	width: 964px;
+	margin: 0 auto 0 auto;
+}
+#cover{
+	height: 708px;
+	background-color: #999;
+
+	.title{
+		background: url("../img/logo.png") 0 0 no-repeat;
+		width: 400px;
+		height: 150px;
+		padding-left: 190px;
+		margin: 0px auto 60px auto;
+		color:@fontwhite;
+		h1{
+			display: block;
+			font-size: 48px;
+			font-weight: bold;
+			line-height: 50px;
+			margin-bottom: 20px;
+			text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+		}
+		h5{
+			font-size: 16px;
+			line-height: 28px;
+			font-weight: normal;
+		}
+	}
+	.detail{
+		width: 960px;
+		margin: 0 160px 0 160px;
+		color: white;
+		font-size: 16px;
+		line-height: 26px;
+		hr{
+			margin-top: 5px;
+			border-top:1px solid #cccccc;;
+		}
+		.f24{
+			font-size: 24px;
+			font-weight: bold;
+		}
+		.f36{
+			font-size: 36px;
+			font-weight: bold;
+		}
+		.left{
+			width: 460px;
+			margin-right: 50px;
+		}
+		.right{
+			width: 460px;
+			.quto1,.quto2{
+				display: inline-block;
+				width: 38px;
+				height: 38px;
+				background: url("../img/quto1.png") 0 0 no-repeat;
+			}
+			.quto2{
+				background: url("../img/quto2.png") 0 0 no-repeat;
+			}
+		}
+		.next{
+			display: inline-block;
+			position: relative;
+			top: 8px;
+			width: 38px;
+			height: 38px;
+			background: url("../img/next.png") 0 0 no-repeat;
+		}
+	}
+	.primary{
+		height: 200px;
+		padding-top: 120px;
+		a.pr-btn{
+			display: block;
+			background: url("../img/btn.png") 0 0 no-repeat;
+			width: 250px;
+			height: 70px;
+			margin: 0 auto 0 auto;
+		}
+	}
+}
+.section{
+	.title{
+		color: white;
+		height: 60px;
+		padding:20px 0 0 20px;
+		background: url("../img/quto2.png") 120px 0 no-repeat;
+		font-weight: bold;
+		font-size: 26px;
+	}
+}
+
+#focus{
+	.container{
+		padding-top: 30px;
+		background: url("../img/focus-icon.png") 70px 40px no-repeat;
+	}
+	background-color:@bluebg; 
+	height: 700px;
+	.frame{
+		background-color: white;
+		border-radius: 5px;
+		div.image{
+			display: block;
+			float: left;
+			width: 630px;
+			height: 434px;
+			overflow: hidden;
+			img{
+				border: 0px;
+				border-top-left-radius: 5px;
+				border-bottom-left-radius: 5px;
+			}
+		}
+		.content{
+			display: block;
+			float: left;
+			width: 294px;
+			height: 228px;
+			overflow: hidden;
+			padding: 20px;
+			h3{
+				font-size: 20px;
+				line-height: 20px;
+				margin-bottom: 20px;
+				font-weight: bold;
+				color: @linkblue;
+			}
+			p{
+				color:#A6A6A6;
+				font-size: 12px;
+				line-height: 20px;
+				&.mr20{
+					margin-top: 20px;
+				}
+				.s{
+					font-weight: bold;
+				}
+			}
+		}
+		.status{
+			display: block;
+			float: left;
+			width: 294px;
+			padding: 10px 20px 20px 20px;
+			.tag{
+				width: 100%;
+				height: 60px;
+				background-color: @linkblue;
+				padding-top: 12px;
+				color:white;
+				border-radius: 3px;
+				.text{
+					float: left;
+					width: 250px;
+				}
+				p{
+					font-size: 14px;
+					margin: 0 0 8px 15px;
+					line-height: 20px;
+					.f24{
+						font-size:20px;
+						font-weight: bold;;
+					}
+				}
+				.next{
+					background: url("../img/next.png") 0 7px no-repeat;
+					width: 38px;
+					height: 50px;
+					float: left;
+				}
+			}
+			.tail{
+				width: 100%;
+				height: 6px;
+				margin-bottom: 5px;
+				background: url("../img/blue-tail.png") 85px 0 no-repeat;
+			}
+			.line{
+				width: 100%;
+				height: 26px;
+				overflow: hidden;
+				.seg{
+					display: block;
+					float: left;
+					padding: 0;
+					margin: 0;
+					height: 26px;
+					width: 80px;
+					&:last-child{
+						width:50px;
+					}
+				}
+				.b{
+					background: url("../img/status_b.png") 0 0 no-repeat;
+				}
+				.g{
+					background: url("../img/status_g.png") 0 0 no-repeat;
+				}
+				.h{
+					background: url("../img/status_h.png") 0 0 no-repeat;
+				}
+				.clearfix;
+			}
+		}
+		.clearfix;
+	}
+}
+#union{
+	background-color: @redbg;
+	height: 700px;
+}

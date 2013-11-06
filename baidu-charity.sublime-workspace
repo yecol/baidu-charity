@@ -1,0 +1,519 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"to",
+				"toggle	.toggle() (show/hide)"
+			],
+			[
+				"backr",
+				"background-position"
+			],
+			[
+				"anima",
+				"animate	animate"
+			],
+			[
+				"y-g",
+				"y-green-2"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"summa",
+				"summary-content"
+			],
+			[
+				"sum",
+				"summary"
+			],
+			[
+				"entry",
+				"entry-title"
+			],
+			[
+				"entry-sum",
+				"entry-summary-header"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"resize",
+				"resize-header"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"backgrou",
+				"background-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"y-",
+				"y-green-1"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"bo",
+				"border-top"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"bod",
+				"border-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"s",
+				"smarty"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"mx",
+				"max-height"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"rea",
+				"ready	$(document).ready"
+			],
+			[
+				"lin",
+				"link"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 288.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Tidy HTML"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"prefixe",
+				"Preferences: Prefixr Key Bindings – User"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"ty",
+				"Tidy HTML"
+			],
+			[
+				"tih",
+				"Tidy HTML"
+			],
+			[
+				"ti",
+				"Tidy HTML"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package contr",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/workspace_git/baidu-charity/assets/css/bootstrap.css",
+		"/D/workspace_git/yecols.cn/photos/landscape.php",
+		"/D/workspace_git/yecols.cn/photos/portraits.php",
+		"/D/workspace_git/yecols.cn/photos/life-beijing.php",
+		"/D/workspace_git/yecols.cn/photos/animal-plant.php",
+		"/D/workspace_git/yecols.cn/about/index.php",
+		"/D/workspace_git/yecols.cn/inc/templates/albums.tpl",
+		"/D/workspace_git/yecols.cn/photos/index.php",
+		"/D/workspace_git/yecols.cn/photos/travel-japan.php",
+		"/D/workspace_git/yecols.cn/photos/travel-taiwan.php",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Less2Css/README.md",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/LESS/README.md",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/workspace_git/yecols.cn/rebuild.html",
+		"/D/workspace_git/yecols.cn/index.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/albums.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/assets/css/reset.css",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/style.css",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/footer.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/photos/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/index.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/photos.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/portfolio.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/photos/travel-taiwan.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates_c/6cbe0f031a98a137bf5a086f6fda6d2ec87942fd.file.portfolio.tpl.cache.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/functions.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/single.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/content.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/content-category.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/header.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/search.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/404.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/blog/wp-content/themes/yecolwp/languages/twentytwelve.pot",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/yecol.smarty.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/photos/travel-bali.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/index.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/sftp-config.json",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/smarty/sysplugins/smarty_internal_templatecompilerbase.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/portfolio/hello.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/index.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/hello.php",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/index.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/yecol.smarty.php.back.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/rebuild.html",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/LIB/Smarty-3.1.14/libs/debug.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/templates/index.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/templates/portfolio.tpl",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/html/inc/yecol.smarty.php",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/html/assets/css/style.css",
+		"/D/Servers/xampp/xampp/htdocs/lhycn/html/assets/css/style.less",
+		"/D/Site/yecols.cn/portfolio.php",
+		"/D/Servers/xampp/xampp/htdocs/yecols.cn/portfolio.html",
+		"/D/Site/yecols.cn/portfolio.html",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/D/Site/xusite/sftp-config.json",
+		"/D/Site/xusite/portfolio.html",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/yecolscn",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Prefixr/Default (Windows).sublime-keymap",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Site/xusite/assets/css/reset.css",
+		"/D/Site/xusite/assets/css/style.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"summary-content",
+			"footer",
+			"link_page",
+			"link-page",
+			"article",
+			"entry-header",
+			"header",
+			"body",
+			"a",
+			"header",
+			"button",
+			"page",
+			".entry-content p",
+			".entry-content p, .entry-summary p, .comment-content p, .mu_register p",
+			"body p",
+			"font-family",
+			"site-content",
+			"content",
+			"hr",
+			"../res",
+			"\"./res",
+			"./res/",
+			"./res",
+			"image",
+			"a-001",
+			"{\n",
+			"text-align: center;\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/res",
+			"\"../res",
+			"../res/",
+			"../res"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.git":
+	{
+		"height": 161.0
+	},
+	"output.sftp":
+	{
+		"height": 152.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true
+}
