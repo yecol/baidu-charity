@@ -8,33 +8,59 @@
         <meta name="author" content="yecol">
         <title>
             百度公益联盟
-        </title><!-- Bootstrap core CSS 
-        
-        <link href="./assets/css/bootstrap.css" rel="stylesheet" type="text/css">
-        -->
-        <link href="./assets/css/style.css" rel="stylesheet" type="text/css"><!-- Just for debugging purposes. Don't actually copy this line! -->
-        <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        </title>
+        <link href="./assets/css/form.css" rel="stylesheet" type="text/css">
+        <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+
         <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+        <script src="./assets/js/html5shiv.js"></script>
+        <script src="./assets/js/respond.min.js"></script>
+        <![endif]-->
+        <style type="text/css">
+        .fixer{
+            position:fixed; 
+            top:20px;
+            z-index: 700;
+            _position:absolute;
+            _top:expression(documentElement.scrollTop+30 + "px")
+        }       
+        </style>
     </head>
     
     <body>
-        <div class="header container">
+        <div id="nav" class="fixer">
+            <div class="nav-lp">
             <ul>
-                <li><a href="#" class="active">首页</a></li>
-                <li><a href="#">焦点救助</a></li>
-                <li><a href="#">联盟公约</a></li>
+                <li id="l1"><a href="#top" id="ftop">首页</a></li>
+                <li id="l2"><a href="#focus" id="ffocus" class="active">焦点救助</a></li>
+                <li id="l3"><a href="#union" id="funion">联盟公约</a></li>
+            </ul>
+            </div>
+            <div class="nav-rp">
+            <a id="nav-btn" class="req-help"></a>
+            </div>
+        </div>
+        <div class="header" id="top">
+            <ul>
+                <li class="active"><a href="#" class="active">首页</a></li>
+                <li><a href="focus.html" >焦点救助</a></li>
+                <li><a href="union.html" >联盟公约</a></li>
             </ul>
         </div>
 
         <div class="section" id="cover">
             <div class="container">
-                <div class="title">
+                <div class="title1">
                     <h1>百度健康公益联盟</h1>
-                    <h5>项目详细介绍项目详细介绍项目详细介绍项目详细介绍项目详细介绍项目详细介绍项目详细介。</h5>
+                </div>
+                <div class="title2">
+                    <div class="t2l">
+                        <p>百度健康公益联盟是全球最大的医疗公益专业平台</p>
+                        <p><span class="cc1">参与的医疗结构最多：</span>国内上万家医疗机构</p>
+                        <p><span class="cc2">投入资源最多：</span>十年内投入50亿医疗资源</p>
+                        <p><span class="cc3">直接覆盖范围最广：</span>参与的医疗机构覆盖上千个县市</p>
+                    </div>
+                    <div class="t2r"><p>百度健康公益联盟，是由百度发起并联合国内上万家医疗机构共同搭建的专业医疗公益平台。宗旨是为具有爱心的医疗机构与经济困难且需要社会救助的患者群体牵线搭桥，使这些患者与爱心医疗机构形成一对一的救助关系，进而让缺乏医疗条件但又真正需要医疗救助的弱势群体拥有平等的健康权利。</p></div>
                 </div>
                 <div class="detail">
                     <span class="left">已有&nbsp;<span class="f24">23</span>&nbsp;个公益组织&nbsp;&nbsp;&nbsp;<span class="f24">53</span>&nbsp;位明星加入成为联盟公益合作方</span>
@@ -43,15 +69,15 @@
                     <hr>
                 </div>
                 <div class="primary">
-                    <a href="#" class="pr-btn"></a>
+                    <a href="#" id="pr-btn" class="req-help"></a>
                 </div>
             </div>
         </div>
 
-        <div class="section" id="focus">
+        <div class="section" id="focus" name="sn2">
             <div class="container">
-            <div class="mid-container">
-            <div class="title">焦点救助</div>    
+            <div class="mid-container" id="fmc">
+            <div class="title1">焦点救助</div>    
             <div class="frame">
                 <div class="image"><img src="./images/pic_1.jpg"></div>
                 <div class="content">
@@ -76,51 +102,195 @@
                         <div class="seg g"></div>
                         <div class="seg g"></div>
                     </div>
+                    <div class="segtext">
+                        <div class="seg-t hide"><p>开始</p><p>2013-10-11</p></div>
+                        <div class="seg-t"><p>开始</p><p>2013-10-11</p></div>
+                        <div class="seg-t hide"><p>开始</p><p>2013-10-11</p></div>
+                        <div class="seg-t hide"><p>开始</p><p>2013-10-11</p></div>
+                    </div>
                 </div>
             </div>
             </div>   
             </div>
         </div>
 
-        <div class="section" id="union">
+        <div class="section" id="union" name="sn3">
             <div class="container">
             <div class="mid-container">
-            <div class="title">健康公益联盟</div>    
-            <div class="frame">
-                <div class="image"><img src="./images/pic_1.jpg"></div>
-                <div class="content">
-                    <h3>北京市老年疾病救助公益活动</h3>
-                    <p>主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述描述主题救助活动描述主题救助活动描述主题救</p>
-                    <p class="mr20"><span class="s">参与救助机构：</span>中国红十字会，中国红十字会，中国红十字会，中国红十字会，中国红十字会...
-                    <p class="mr20"><span class="s">救助医院：</span>回龙观医院</p>
-                </div>
-                <div class="status">
-                    <div class="tag">
-                        <div class="text">
-                        <p>当前进展：<span class="f24">救助中</span></p>
-                        <p>已救助：<span class="f24">2,415人</span></p>
-                        </div>
-                        <div class="next"></div>
-                    </div>
-                    <div class="tail">
-                    </div>
-                    <div class="line">
-                        <div class="seg b"></div>
-                        <div class="seg h"></div>
-                        <div class="seg g"></div>
-                        <div class="seg g"></div>
-                    </div>
-                </div>
+            <div class="title1">健康公益联盟</div>    
+            <div class="face-frame">
+                <ul>
+                    <!-- line1 -->
+                    <li class="face2" id="f1"></li>
+                    <li class="face1" id="f2"><img src="./images/face-1.jpg"></img></li>
+                    <li class="face1" id="f3"><img src="./images/face-1.jpg"></img></li>
+                    <li class="face1" id="f4"><img src="./images/face-1.jpg"></img></li>
+                    <li class="facew" id="f5"></li>
+                    <!-- line2 -->
+                    <li class="face1" id="f6"><img src="./images/face-1.jpg"></img></li>
+                    <li class="face2" id="f7"></li>
+                    <li class="facew" id="f8"></li>
+                    <!-- line3 -->
+                    <li class="face2" id="f9"></li>
+                    <li class="face1" id="f10"></li>
+                    <li class="facew" id="f11"></li>
+                    <!-- line4 -->
+                    <li class="face1" id="f12"><img src="./images/face-1.jpg"></img></li>
+                    <li class="facew" id="f13"></li>
+                    <li class="facew" id="f14"></li>
+                    <!-- line5 -->
+                    <li class="face1" id="f15"><img src="./images/face-1.jpg"></img></li>
+                    <li class="face1" id="f16"><img src="./images/face-1.jpg"></img></li>
+                    <li class="facew" id="f17"></li>
+                    <li class="face1" id="f18"><img src="./images/face-1.jpg"></img></li>
+                    <li class="facew" id="f19"></li>
+                </ul>
+                
             </div>
             </div>   
             </div>
         </div>
 
+        <div class="section" id="footer">
+            <p>©2013 Baidu 使用前必读 百度首页</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">申请救助</h4>
+              </div>
+              <div class="modal-body">
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+
+<form class="form-horizontal" id="help-form" role="form">
+    <div class="form-group row">
+        <label for="username" class="col-sm-2 control-label"><span class="cred">*</span>姓名:</label>
+            <div class="col-xs-4">
+                <input type="text" id="username" class="form-control">
+            </div>
+        <label for="tel" class="col-sm-2 control-label"><span class="cred">*</span>电话:</label>
+            <div class="col-xs-4">
+                <input type="text" id="tel" class="form-control">
+            </div>
+    </div>
+    <div class="form-group row">
+        <label for="address" class="col-sm-2 control-label"><span class="cred">*</span>地址:</label>
+            <div class="col-xs-3">
+                <select class="form-control">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+            </div>
+            <div class="col-xs-3">
+                <select class="form-control">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+            </div>
+            <div class="col-xs-4">
+                <select class="form-control">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+            </div>
+    </div>
+    <div class="form-group">
+        <label for="detailaddress" class="col-sm-2 control-label">详细地址:</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="detailaddress">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="desc" class="col-sm-2 control-label"><span class="cred">*</span>病情描述:</label>
+        <div class="col-sm-10">
+            <textarea class="form-control" rows="3"></textarea>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="other" class="col-sm-2 control-label">备注:</label>
+        <div class="col-sm-10">
+            <textarea class="form-control" rows="3"></textarea>
+        </div>
+    </div>
+
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+        <label>带<span class="cred">*</span>为必填项</label>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-8 pull-center">
+      <button type="submit" class="send-help"></button>
+    </div>
+  </div>
+</form>
+
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        <script src="./assets/js/jquery-1.10.2.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+        <script>
+        $fposito = 0;
+        $(document).ready(function() {
+            /* resize section */
+            $vsbheight = $(window).height();
+            if($vsbheight>$("#focus").height()){
+                $("#focus").height($vsbheight);
+                $pt = ($("#focus").height()-494)/2
+                $("#focus .container").css({"padding-top":$pt,"background-position-y":$pt+10});
+            }
+            /* scroll */
+            $("#nav ul a").click(function(e) {
+                var sel = $(this).attr("href");
+                $('html,body').animate({scrollTop: $(sel).offset().top}, 500);
+                e.preventDefault();
+            });
+            /* open form*/
+            $(".req-help").click(function(e) {
+                /* Act on the event */
+                $('#myModal').modal()
+                e.preventDefault();
+            });
+        });
+        $(window).resize(function(event) {
+            /* resize section */
+            $vsbheight = $(window).height();
+            if($vsbheight>$("#focus").height()){
+                $("#focus").height($vsbheight);
+                $pt = ($("#focus").height()-494)/2
+                $("#focus .container").css({"padding-top":$pt,"background-position-y":$pt+10});
+            }
+            $('#nav').css('left',($('#fmc').offset().left+475)); 
+        });
+        $(window).scroll(function(){
+            var h_num=$(window).scrollTop();   
+            if(h_num>$("#focus").offset().top){
+                $('#nav').css('left',($('#fmc').offset().left+475)); 
+                $('#ffocus').addClass('active');
+                $('#funion').removeClass('active');
+                if (h_num>$("#union").offset().top) {
+                    $('#ffocus').removeClass('active');
+                    $('#funion').addClass('active');
+                };
+                $('#nav').show(); 
+            }else{   
+                $('#nav').hide();    
+            }             
+        });  
+        </script>
   </body>
 </html>
