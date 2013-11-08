@@ -9,7 +9,8 @@
         <title>
             百度公益联盟
         </title>
-        <link href="./assets/css/form.css" rel="stylesheet" type="text/css">
+        <link href="./assets/css/effect.css" rel="stylesheet" type="text/css">
+        <link href="./assets/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css">
         <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
 
         <!--[if lt IE 9]>
@@ -21,7 +22,7 @@
     <body>
         <div class="header" id="top">
             <ul>
-                <li><a href="#">首页</a></li>
+                <li><a href="index.html">首页</a></li>
                 <li class="active"><a href="focus.html" class="active">焦点救助</a></li>
                 <li><a href="union.html" >联盟公约</a></li>
             </ul>
@@ -46,7 +47,40 @@
                         </div>
                     </div>
                 </div>
-                <div class="frame-status"></div>
+
+
+
+                <div class="frame-status">
+                <ul id="carousel" class="jcarousel-skin-tango">
+                        <li class="c-li cli-1">
+                            <div class="c-l">
+                                <img src="./images/face-2.jpg" />
+                                <p>2012-02-17</p>
+                            </div>
+                            <div class="c-r">
+                                <p class="c-r-t">活动启动仪式</p>
+                                <p class="c-r-c">内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述</p>
+                            </div>
+                        </li>
+                        <li class="c-li cli-active">
+                            <div class="c-l">
+                                <img src="./images/face-2.jpg" />
+                                <p>2012-02-17</p>
+                            </div>
+                            <div class="c-r">
+                                <p class="c-r-t">活动启动仪式</p>
+                                <p class="c-r-c">内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述</p>
+                            </div>
+                        </li>
+                        <li class="c-li cli-noactive">
+                            <p class="unactive">救助开始</p>
+                        </li>
+                        <li class="c-li cli-noactive">
+                            <p class="unactive">救助开始</p>
+                        </li>
+
+                </ul>
+                </div>
                 <div class="frame-main">
                     <div class="context">
                         <div class="share">
@@ -81,12 +115,12 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
                     </div>
                     <div class="pics">
                         <div class="title">相关图片</div>
-                        <p>白内障复明工作大型公益活动讲座</p>
-                        <img src="./images/pic_3.jpg"></img>
-                        <p>白内障复明工作大型公益活动讲座</p>
-                        <img src="./images/pic_3.jpg"></img>
-                        <p>白内障复明工作大型公益活动讲座</p>
-                        <img src="./images/pic_3.jpg"></img>
+                        <p>白内障复明工作大型公益活动讲座1</p>
+                        <a rel="group" class="fancy" href="./images/pic_2.jpg" alt="白内障复明工作大型公益活动讲座1"><img src="./images/pic_3.jpg"></img></a>
+                        <p>白内障复明工作大型公益活动讲座2</p>
+                        <a rel="group" class="fancy" href="./images/pic_2.jpg" alt="白内障复明工作大型公益活动讲座2"><img src="./images/pic_3.jpg"></img></a>
+                        <p>白内障复明工作大型公益活动讲座3</p>
+                        <a rel="group" class="fancy" href="./images/pic_2.jpg" alt="白内障复明工作大型公益活动讲座3"><img src="./images/pic_3.jpg"></img></a>
                     </div>
                 </div>
                 <div class="frame-footer">
@@ -137,145 +171,23 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
         </div>
 
         <div class="section" id="footer">
-            <p>©2013 Baidu 使用前必读 百度首页</p>
+            <p>©2013 Baidu 使用前必读 <a href="http://baidu.com" target="_blank">百度首页</a></p>
         </div>
-        <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">申请救助</h4>
-              </div>
-              <div class="modal-body">
-
-
-<form class="form-horizontal" id="help-form" role="form">
-    <div class="form-group row">
-        <label for="username" class="col-sm-2 control-label"><span class="cred">*</span>姓名:</label>
-            <div class="col-xs-4">
-                <input type="text" id="username" class="form-control">
-            </div>
-        <label for="tel" class="col-sm-2 control-label"><span class="cred">*</span>电话:</label>
-            <div class="col-xs-4">
-                <input type="text" id="tel" class="form-control">
-            </div>
-    </div>
-    <div class="form-group row">
-        <label for="address" class="col-sm-2 control-label"><span class="cred">*</span>地址:</label>
-            <div class="col-xs-3">
-                <select class="form-control">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-            </div>
-            <div class="col-xs-3">
-                <select class="form-control">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-            </div>
-            <div class="col-xs-4">
-                <select class="form-control">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
-                </select>
-            </div>
-    </div>
-    <div class="form-group">
-        <label for="detailaddress" class="col-sm-2 control-label">详细地址:</label>
-        <div class="col-sm-10">
-            <input type="email" class="form-control" id="detailaddress">
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="desc" class="col-sm-2 control-label"><span class="cred">*</span>病情描述:</label>
-        <div class="col-sm-10">
-            <textarea class="form-control" rows="3"></textarea>
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="other" class="col-sm-2 control-label">备注:</label>
-        <div class="col-sm-10">
-            <textarea class="form-control" rows="3"></textarea>
-        </div>
-    </div>
-
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-        <label>带<span class="cred">*</span>为必填项</label>
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-8 pull-center">
-      <button type="submit" class="send-help"></button>
-    </div>
-  </div>
-</form>
-
-              </div>
-            </div><!-- /.modal-content -->
-          </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
         <script src="./assets/js/jquery-1.10.2.min.js"></script>
-        <script src="./assets/js/bootstrap.min.js"></script>
+        <script src="./assets/js/jquery.jcarousel.min.js"></script>
+        <script src="./assets/fancybox/jquery.fancybox.pack.js"></script>
         <script>
-        $fposito = 0;
         $(document).ready(function() {
-            /* resize section */
-            $vsbheight = $(window).height();
-            if($vsbheight>$("#focus").height()){
-                $("#focus").height($vsbheight);
-                $pt = ($("#focus").height()-494)/2
-                $("#focus .container").css({"padding-top":$pt,"background-position-y":$pt+10});
-            }
-            /* scroll */
-            $("#nav ul a").click(function(e) {
-                var sel = $(this).attr("href");
-                $('html,body').animate({scrollTop: $(sel).offset().top}, 500);
-                e.preventDefault();
-            });
-            /* open form*/
-            $(".req-help").click(function(e) {
-                /* Act on the event */
-                $('#myModal').modal()
-                e.preventDefault();
+            $('#carousel').jcarousel();
+            $("a.fancy").fancybox({
+                beforeLoad: function() {
+                    this.title = $(this.element).attr('alt');
+                },
+                title:{
+                    type:"over"
+                }
             });
         });
-        $(window).resize(function(event) {
-            /* resize section */
-            $vsbheight = $(window).height();
-            if($vsbheight>$("#focus").height()){
-                $("#focus").height($vsbheight);
-                $pt = ($("#focus").height()-494)/2
-                $("#focus .container").css({"padding-top":$pt,"background-position-y":$pt+10});
-            }
-            $('#nav').css('left',($('#fmc').offset().left+475)); 
-        });
-        $(window).scroll(function(){
-            var h_num=$(window).scrollTop();   
-            if(h_num>$("#focus").offset().top){
-                $('#nav').css('left',($('#fmc').offset().left+475)); 
-                $('#ffocus').addClass('active');
-                $('#funion').removeClass('active');
-                if (h_num>$("#union").offset().top) {
-                    $('#ffocus').removeClass('active');
-                    $('#funion').addClass('active');
-                };
-                $('#nav').show(); 
-            }else{   
-                $('#nav').hide();    
-            }             
-        });  
         </script>
   </body>
 </html>

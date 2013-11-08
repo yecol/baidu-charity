@@ -19,16 +19,26 @@
         <style type="text/css">
         .fixer{
             position:fixed; 
-            top:20px;
+            padding-top: 20px;
             z-index: 700;
+            width: 100%;
             _position:absolute;
             _top:expression(documentElement.scrollTop+30 + "px")
-        }       
+        }
+        .tip{
+            position:absolute;
+            top: 20px;
+            z-index: 900;
+            width: 100%;
+            _position:absolute;
+            _top:expression(documentElement.scrollTop+30 + "px")
+        }      
         </style>
     </head>
     
     <body>
-        <div id="nav" class="fixer">
+        <div class="fixer">
+        <div id="nav">
             <div class="nav-lp">
             <ul>
                 <li id="l1"><a href="#top" id="ftop">首页</a></li>
@@ -39,6 +49,7 @@
             <div class="nav-rp">
             <a id="nav-btn" class="req-help"></a>
             </div>
+        </div>
         </div>
         <div class="header" id="top">
             <ul>
@@ -64,7 +75,7 @@
                 </div>
                 <div class="detail">
                     <span class="left">已有&nbsp;<span class="f24">23</span>&nbsp;个公益组织&nbsp;&nbsp;&nbsp;<span class="f24">53</span>&nbsp;位明星加入成为联盟公益合作方</span>
-                    <span class="right"><span class="f24">5229</span>&nbsp;家民营医院&nbsp;&nbsp;&nbsp;已签署<div class="quto1"></div><span class="f36">联盟公约</span><div class="quto2"></div></span>
+                    <span class="right"><span class="f24">5229</span>&nbsp;家民营医院&nbsp;&nbsp;&nbsp;已签署<div class="quto1"></div><span class="f36"><a href="union.html">联盟公约</a></span><div class="quto2"></div></span>
                     <div class="next"></div>
                     <hr>
                 </div>
@@ -79,9 +90,9 @@
             <div class="mid-container" id="fmc">
             <div class="title1">焦点救助</div>    
             <div class="frame">
-                <div class="image"><img src="./images/pic_1.jpg"></div>
+                <div class="image"><a href="#"><img src="./images/pic_1.jpg"></a></div>
                 <div class="content">
-                    <h3>北京市老年疾病救助公益活动</h3>
+                    <h3><a href="#">北京市老年疾病救助公益活动</a></h3>
                     <p>主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述描述主题救助活动描述主题救助活动描述主题救</p>
                     <p class="mr20"><span class="s">参与救助机构：</span>中国红十字会，中国红十字会，中国红十字会，中国红十字会，中国红十字会...
                     <p class="mr20"><span class="s">救助医院：</span>回龙观医院</p>
@@ -92,21 +103,28 @@
                         <p>当前进展：<span class="f24">救助中</span></p>
                         <p>已救助：<span class="f24">2,415人</span></p>
                         </div>
-                        <div class="next"></div>
+                        <div class="next"><a href="#"></a></div>
                     </div>
+                    <!-- TODO:数字序号写在这里，如这里表示激活第3个 -->
+                    <div id="cura" class="hide">3</div>
+
                     <div class="tail">
                     </div>
                     <div class="line">
-                        <div class="seg b"></div>
-                        <div class="seg h"></div>
-                        <div class="seg g"></div>
-                        <div class="seg g"></div>
+                        <a class="stage1"></a>
+                        <div class="seg"></div>
+                        <a class="stage"></a>
+                        <div class="seg"></div>
+                        <a class="stage"></a>
+                        <div class="seg"></div>
+                        <a class="stage"></a>
+                        <div class="seg"></div>
                     </div>
                     <div class="segtext">
-                        <div class="seg-t hide"><p>开始</p><p>2013-10-11</p></div>
                         <div class="seg-t"><p>开始</p><p>2013-10-11</p></div>
-                        <div class="seg-t hide"><p>开始</p><p>2013-10-11</p></div>
-                        <div class="seg-t hide"><p>开始</p><p>2013-10-11</p></div>
+                        <div class="seg-t"><p>开始</p><p>2013-10-11</p></div>
+                        <div class="seg-t"><p>开始</p><p>2013-10-11</p></div>
+                        <div class="seg-t"><p>开始</p><p>2013-10-11</p></div>
                     </div>
                 </div>
             </div>
@@ -138,12 +156,6 @@
                     <li class="face1" id="f12"><img src="./images/face-1.jpg"></img></li>
                     <li class="facew" id="f13"></li>
                     <li class="facew" id="f14"></li>
-                    <!-- line5 -->
-                    <li class="face1" id="f15"><img src="./images/face-1.jpg"></img></li>
-                    <li class="face1" id="f16"><img src="./images/face-1.jpg"></img></li>
-                    <li class="facew" id="f17"></li>
-                    <li class="face1" id="f18"><img src="./images/face-1.jpg"></img></li>
-                    <li class="facew" id="f19"></li>
                 </ul>
                 
             </div>
@@ -152,10 +164,13 @@
         </div>
 
         <div class="section" id="footer">
-            <p>©2013 Baidu 使用前必读 百度首页</p>
+            <p>©2013 Baidu 使用前必读 <a href="baidu.com" target="_blank">百度首页</a></p>
         </div>
+
+
+
         <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal fade" id="yModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
@@ -163,7 +178,6 @@
                 <h4 class="modal-title" id="myModalLabel">申请救助</h4>
               </div>
               <div class="modal-body">
-
 
 <form class="form-horizontal" id="help-form" role="form">
     <div class="form-group row">
@@ -241,6 +255,9 @@
             </div><!-- /.modal-content -->
           </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
+
+<div class="tip"></div>
+
         <script src="./assets/js/jquery-1.10.2.min.js"></script>
         <script src="./assets/js/bootstrap.min.js"></script>
         <script>
@@ -259,12 +276,88 @@
                 $('html,body').animate({scrollTop: $(sel).offset().top}, 500);
                 e.preventDefault();
             });
+            /*slide*/
+            $cura = parseInt($("#cura").html(),10)-1;
+            $taila=[6,78,152,225];
+            {   
+                $(".stage").each(function(i){
+                    if(i==$cura-1){
+                        $(this).addClass('active');
+                    }else if(i>$cura-1){
+                        $(this).addClass('unactive');
+                    }
+                    i++;
+                });
+                $(".seg").each(function(j){
+                    if(j+1>$cura){
+                        $(this).addClass('unactive');
+                    }else{
+                        $(this).removeClass('unactive');
+                    }
+                    j++;
+                });
+                $(".seg-t").each(function(k){
+                    if(k!=$cura){
+                        $(this).hide();
+                    }else{
+                        $(this).show();
+                    }
+                    k++;
+                });
+                $(".tail").css("background-position-x",$taila[$cura]);
+                if($cura==0){
+                    $(".stage1").addClass('active');
+                }
+            }
+            /*slide hover||click*/
+            $(".stage,.stage1").click(function() {
+                if($cura==0)return;
+                if($(this).hasClass('unactive'))return;
+                $(".tail").css("background-position-x",$taila[$(this).index()/2]);
+                $(this).addClass('active');
+                $(this).siblings('.active').removeClass('active');
+                $index_2=$(this).index()/2;
+                $(".seg-t").each(function(k){
+                    if(k!=$index_2){
+                        $(this).hide();
+                    }else{
+                        $(this).show();
+                    }
+                    k++;
+                });
+            }
+            /*
+            ,function(){
+                if($cura==0)return;
+                $(".tail").css("background-position-x",$taila[$cura]);
+                $(this).removeClass('active');
+                $(".stage").eq($cura-1).addClass('active');
+            }
+            */
+            );
+
+            /*表单数据传输和处理*/
             /* open form*/
             $(".req-help").click(function(e) {
                 /* Act on the event */
-                $('#myModal').modal()
+                $('#yModal').modal()
                 e.preventDefault();
             });
+
+            $(".send-help").click(function(e) {
+                $("#yModal").modal('hide');
+                //TODO:发送数据
+                
+                //TODO如果成功
+                {
+                    $(".tip").css("top",$(window).scrollTop()+$(window).height()/2).show();
+                    setTimeout(function(){
+                        $('.tip').hide();
+                    }, 2000);
+                }
+                e.preventDefault();
+            });
+
         });
         $(window).resize(function(event) {
             /* resize section */
@@ -274,20 +367,22 @@
                 $pt = ($("#focus").height()-494)/2
                 $("#focus .container").css({"padding-top":$pt,"background-position-y":$pt+10});
             }
-            $('#nav').css('left',($('#fmc').offset().left+475)); 
+            $('.fixer').css('padding-left',($('#fmc').offset().left+475)); 
         });
         $(window).scroll(function(){
             var h_num=$(window).scrollTop();   
-            if(h_num>$("#focus").offset().top){
-                $('#nav').css('left',($('#fmc').offset().left+475)); 
+            if(h_num>=$("#focus").offset().top){
+                $('.fixer').css('padding-left',($('#fmc').offset().left+475)); 
                 $('#ffocus').addClass('active');
                 $('#funion').removeClass('active');
-                if (h_num>$("#union").offset().top) {
+                if (h_num>=$("#union").offset().top) {
                     $('#ffocus').removeClass('active');
                     $('#funion').addClass('active');
                 };
+                $('.fixer').show();
                 $('#nav').show(); 
-            }else{   
+            }else{ 
+                $('.fixer').hide();
                 $('#nav').hide();    
             }             
         });  

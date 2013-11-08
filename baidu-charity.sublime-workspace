@@ -4,36 +4,192 @@
 		"selected_items":
 		[
 			[
-				"padding",
-				"padding"
-			],
-			[
-				"mar",
-				"margin-right"
-			],
-			[
 				"back",
-				"background-color"
+				"background"
 			],
 			[
-				"padd",
+				"has",
+				"hasClass	.hasClass"
+			],
+			[
+				"tail",
+				"taila"
+			],
+			[
+				"stage",
+				"stage1"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass"
+			],
+			[
+				"sta",
+				"stage1"
+			],
+			[
+				"padding",
 				"padding-left"
+			],
+			[
+				"inli",
+				"inline"
+			],
+			[
+				"fon",
+				"font-weight"
 			],
 			[
 				"font",
 				"font-size"
 			],
 			[
-				"li",
-				"list-style"
+				"text",
+				"text-decoration"
 			],
 			[
-				"f",
+				"bo",
+				"border-radius"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"rea",
+				"ready	$(document).ready"
+			],
+			[
+				"fo",
 				"font-weight"
 			],
 			[
+				"list",
+				"list-style-position"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"mr",
+				"margin-bottom"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"add",
+				"addClass	addClass"
+			],
+			[
+				"off",
+				"offset	.offset"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"c",
+				"clearfix"
+			],
+			[
+				"nav",
+				"nav-btn"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"hea",
+				"header"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"uni",
+				"union"
+			],
+			[
+				"re",
+				"ready	$(document).ready"
+			],
+			[
+				"scr",
+				"script"
+			],
+			[
+				"cl",
+				"clearfix"
+			],
+			[
+				"80px",
+				"80px"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"clear",
+				"clearfix"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"quto",
+				"quto2"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"link",
+				"linkblue"
+			],
+			[
 				"marg",
-				"margin-top"
+				"margin-left"
 			],
 			[
 				"to",
@@ -60,14 +216,6 @@
 				"margin-right"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
-				"ma",
-				"margin-bottom"
-			],
-			[
 				"summa",
 				"summary-content"
 			],
@@ -82,14 +230,6 @@
 			[
 				"entry-sum",
 				"entry-summary-header"
-			],
-			[
-				"ba",
-				"background"
-			],
-			[
-				"inli",
-				"inline-block"
 			],
 			[
 				"di",
@@ -112,24 +252,12 @@
 				"background-size"
 			],
 			[
-				"fon",
-				"font-size"
-			],
-			[
 				"y-",
 				"y-green-1"
 			],
 			[
 				"border",
 				"border-bottom"
-			],
-			[
-				"bo",
-				"border-top"
-			],
-			[
-				"cl",
-				"clear"
 			],
 			[
 				"bod",
@@ -152,16 +280,8 @@
 				"max-height"
 			],
 			[
-				"c",
-				"color"
-			],
-			[
 				"bac",
 				"background-color"
-			],
-			[
-				"rea",
-				"ready	$(document).ready"
 			],
 			[
 				"lin",
@@ -172,9 +292,34 @@
 	"buffers":
 	[
 		{
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 15275,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/style.less",
+			"settings":
+			{
+				"buffer_size": 16133,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 17202,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/css/effect.css",
+			"settings":
+			{
+				"buffer_size": 2881,
 				"line_ending": "Windows"
 			}
 		}
@@ -182,9 +327,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 288.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"tid",
+				"Tidy HTML"
+			],
 			[
 				"html",
 				"Tidy HTML"
@@ -270,7 +419,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 512.0
+		"width": 400.0
 	},
 	"console":
 	{
@@ -287,7 +436,22 @@
 	},
 	"file_history":
 	[
+		"/D/workspace_git/baidu-charity/assets/css/effect.css",
+		"/D/workspace_git/baidu-charity/union.html",
+		"/D/workspace_git/baidu-charity/focus.html",
+		"/D/workspace_git/baidu-charity/index.html",
+		"/D/workspace_git/baidu-charity/assets/css/style.css",
+		"/D/workspace_git/baidu-charity/assets/css/form.css",
+		"/C/Users/Yecol/Desktop/bootstrap.css",
 		"/D/workspace_git/baidu-charity/assets/css/bootstrap.css",
+		"/D/workspace_git/baidu-charity-1107/assets/css/style.css",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
+		"/D/workspace_git/baidu-charity/assets/css/reset.css",
+		"/D/workspace_git/yecols.cn/assets/css/style.less",
+		"/D/workspace_git/baidu-charity/assets/css/style.less",
+		"/D/workspace_git/baidu-charity/sftp-config.json",
+		"/D/workspace_git/yecols.cn/sftp-config.json",
+		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/yecolscn",
 		"/D/workspace_git/yecols.cn/photos/landscape.php",
 		"/D/workspace_git/yecols.cn/photos/portraits.php",
 		"/D/workspace_git/yecols.cn/photos/life-beijing.php",
@@ -299,7 +463,6 @@
 		"/D/workspace_git/yecols.cn/photos/travel-taiwan.php",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Less2Css/README.md",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/LESS/README.md",
-		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/D/workspace_git/yecols.cn/rebuild.html",
 		"/D/workspace_git/yecols.cn/index.html",
@@ -348,7 +511,6 @@
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
 		"/D/Site/xusite/sftp-config.json",
 		"/D/Site/xusite/portfolio.html",
-		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/yecolscn",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Prefixr/Default (Windows).sublime-keymap",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
 		"/D/Site/xusite/assets/css/reset.css",
@@ -370,6 +532,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ib2",
+			";\n",
+			"font-family",
+			"border",
+			"btn",
+			"h1",
+			"title1",
+			"title",
+			"20px",
+			"inline",
+			"inline-block",
+			"inline",
+			"in-line",
+			"border-bottom-left",
+			"radiu",
+			"border-radiu",
+			"hidden",
+			"clear",
+			"font-family",
+			"font",
 			"summary-content",
 			"footer",
 			"link_page",
@@ -423,26 +605,127 @@
 			[
 				{
 					"buffer": 0,
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 15275,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1989,
+								1989
 							]
 						],
 						"settings":
 						{
 							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 925.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "assets/css/style.less",
+					"settings":
+					{
+						"buffer_size": 16133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10330,
+								10330
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2178.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "assets/css/style.css",
+					"settings":
+					{
+						"buffer_size": 17202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12273,
+								12276
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1839.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/css/effect.css",
+					"settings":
+					{
+						"buffer_size": 2881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								264
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 198.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -467,11 +750,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.621787025704,
 			1.0
 		],
 		"rows":
@@ -514,6 +804,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 238.0,
+	"side_bar_width": 286.0,
 	"status_bar_visible": true
 }

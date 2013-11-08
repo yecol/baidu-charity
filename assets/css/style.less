@@ -10,6 +10,22 @@
 body {
 	font-family: @yaheifamily;
 	vertical-align: baseline;
+	a{
+		text-decoration: none;
+		&:hover,&:focus,&:active{
+			color: @linkblue;
+		}
+	}
+	.fixer{
+		display: none;
+		background: url("../img/index-focus-bg.png") 0 0 repeat-x;
+	}
+	.tip{
+		display: none;
+		width: 100%;
+		height: 138px;
+		background: url("../img/tip.png") center 0 no-repeat; 
+	}
 }
 
 .clearfix{
@@ -190,6 +206,13 @@ body {
 		.next{
 			*display: inline;
 		}
+		a{
+			color: white;
+			text-decoration: none;
+			&:hover{
+				color: @linkblue;
+			}
+		}
 	}
 	.primary{
 		height: 200px;
@@ -215,7 +238,6 @@ body {
 
 #focus{
 	background-color:@bluebg; 
-	background: @bluebg url("../img/index-focus-bg.png") 0 0 repeat-x;
 	height: 600px;
 	.container{
 		padding-top: 30px;
@@ -297,6 +319,12 @@ body {
 					width: 38px;
 					height: 50px;
 					float: left;
+					a{
+						width: 25px;
+						height: 48px;
+						display: block;
+						cursor: pointer;
+					}
 				}
 			}
 			.tail{
@@ -309,23 +337,41 @@ body {
 				width: 100%;
 				height: 26px;
 				overflow: hidden;
+				.stage1,.stage{
+					cursor: pointer;
+					float: left;
+					display: block;
+					width: 26px;
+					height: 26px;
+					background-repeat: repeat-x;
+					background-position: 0 0;
+				}
+				.stage1{
+					background-image: url("../img/tu_01.png");
+					&.active{
+						background-image: url("../img/tu_03.png");
+					}
+				}
+				.stage{
+					background-image: url("../img/tu_05.png");
+					&.active{
+						background-image: url("../img/tu_03.png");
+					}
+					&.unactive{
+						background-image: url("../img/tu_07.png");
+					}
+				}
 				.seg{
 					display: block;
 					float: left;
 					height: 26px;
-					width: 80px;
-					&:last-child{
-						width:50px;
+					width: 47px;
+					background-repeat: repeat-x;
+					background-position: 0 0;
+					background-image: url("../img/tu_02.png"); 
+					&.unactive{
+						background-image: url("../img/tu_04.png"); 
 					}
-				}
-				.b{
-					background: url("../img/status_b.png") 0 0 no-repeat;
-				}
-				.g{
-					background: url("../img/status_g.png") 0 0 no-repeat;
-				}
-				.h{
-					background: url("../img/status_h.png") 0 0 no-repeat;
 				}
 				.clearfix;
 			}
@@ -338,19 +384,16 @@ body {
 					font-size: 12px;
 					color: @linkblue;
 					position: relative;
-					&:nth-of-type(1){
-
-					}
 					&:nth-of-type(2){
-						left: 54px;
+						left: 46px;
 						text-align: center;
 					}
 					&:nth-of-type(3){
-						left: 50px+80px;
+						left: 120px;
 						text-align: center;
 					}
 					&:nth-of-type(4){
-						left: 50px+160px;
+						left: 50px+145px;
 						text-align: center;
 					}
 					p{
@@ -368,7 +411,7 @@ body {
 	@s:128px;
 	@p:12px;
 	background-color: @redbg;
-	height: 864px;
+	height: 800px;
 	.container{
 		padding-top: 30px;
 		background: url("../img/union-icon.png") 70px 40px no-repeat;
@@ -505,6 +548,13 @@ body {
 		text-align: center;
 		font-size: 14px;
 		color: #666666;
+		a{
+			color: #666666;
+			text-decoration: none;
+			&:hover,&:active{
+				color: @linkblue;
+			}
+		}
 	}
 }
 
@@ -524,6 +574,12 @@ body {
 		height: 100%;
 		width: 190px;
 		background:url("../img/nav-right.png") 0 0 no-repeat;
+		a{
+			width: 188px;
+			height: 68px;
+			display: block;
+			cursor: pointer;
+		}
 	}
 	ul{
 		list-style: none;
@@ -544,16 +600,22 @@ body {
 				font-weight: bold;
 				&#ftop{
 					background: url("../img/i-top.png") center 3px no-repeat;
+					&:hover,&.active{
+						background: url("../img/i-top-a.png") center 3px no-repeat;
+						color: white;
+					}
 				}
 				&#ffocus{
 					background: url("../img/i-focus.png") center 3px no-repeat;
-					&.active{
-						background: @bluebg url("../img/i-focus.png") center 3px no-repeat;
+					&:hover,&.active{
+						background: @bluebg url("../img/i-focus-a.png") center 3px no-repeat;
+						color: white;
 					}
 				}
 				&#funion{
-					&.active{
-						background: @redbg url("../img/i-union.png") center 3px no-repeat;
+					&:hover,&.active{
+						background: @redbg url("../img/i-union-a.png") center 3px no-repeat;
+						color: white;
 					}
 					background: url("../img/i-union.png") center 3px no-repeat;
 				}
@@ -675,6 +737,9 @@ body {
 						width: 220px;
 						display: inline-block;
 					}
+					&.ib2{
+						*display: inline;
+					}
 					&.mr20{
 						margin-top: 20px;
 					}
@@ -686,11 +751,72 @@ body {
 		}
 		.frame-status{
 			background: white;
-			width: 100%;
+			width: 962px;
 			height: 200px;
 			border-radius: 5px;
 			border: 1px solid #ddd;
 			margin-bottom: 40px;
+			#carousel{
+				.c-li{
+					display: inline-block;
+					width: 320px;
+					height: 160px;
+					.clearfix;
+					p.unactive{
+						padding-top: 60px;
+						padding-left: 10px;
+						color: #ccc;
+						font-size: 18px;
+						font-weight: bold;
+					}
+					.c-l{
+						width: 90px;
+						float: left;
+						margin-right: 10px;
+						p{
+							text-align: center;
+							margin-top: 55px;
+							color: #1F82E1;
+							font-size: 12px;
+							font-weight: bold;
+						}
+					}
+					.c-r{
+						width: 217px;
+						float: left;
+						.c-r-t{
+							font-size: 18px;
+							font-weight: bold;
+							color: #333;
+							overflow: hidden;
+							padding-bottom: 16px;
+						}
+						.c-r-c{
+							color: #6c6c6c;
+							font-size: 14px;
+							line-height: 20px;
+							height: 65px;
+							overflow: hidden;
+						}
+					}
+				}
+				.cli-1-active{
+					background: url("../img/clb-1-a.png") 0 80px no-repeat;
+				}
+				.cli-1{
+					background: url("../img/clb-1.png") 0 80px no-repeat;
+				}
+				.cli{
+					background: url("../img/clb.png") 0 80px no-repeat;
+				}
+				.cli-active{
+					background: url("../img/clb-a.png") 0 80px no-repeat;
+				}
+				.cli-noactive{
+					background: url("../img/clb-d.png") 0 80px no-repeat;
+				}
+			}
+
 		}
 		.frame-main{
 			width: 100%;
@@ -740,7 +866,7 @@ body {
 		.frame-footer{
 			.title{
 				width: 100%;
-				border-bottom: 1px solid #999;
+				border-bottom: 1px solid #d7d7d7;
 				padding-bottom: 10px;
 				margin-bottom: 40px;
 				p{
@@ -777,6 +903,7 @@ body {
 		padding-top: 36px;
 		margin: 0 auto 0 auto;
 		.title{
+			background: url("../img/union-title.png") 0 0 no-repeat;
 			font-size: 30px;
 			font-weight: bold;
 			color: #e8534f;
@@ -803,9 +930,11 @@ body {
 					margin-bottom: 8px;
 				}
 				&.p3{
+					background: url("../img/list-red.png") 0 5px no-repeat;
 					font-size: 14px;
 					color: #6c6c6c;
 					margin-bottom: 5px;
+					padding-left: 20px;
 				}
 			}
 		}
