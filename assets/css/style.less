@@ -301,6 +301,9 @@ body {
 				padding-top: 12px;
 				color:white;
 				border-radius: 3px;
+				a.taga{
+					background-color: clear;
+				}
 				.text{
 					float: left;
 					width: 250px;
@@ -309,6 +312,7 @@ body {
 					font-size: 14px;
 					margin: 0 0 8px 15px;
 					line-height: 20px;
+					color: white;
 					.f24{
 						font-size:20px;
 						font-weight: bold;;
@@ -384,15 +388,15 @@ body {
 					font-size: 12px;
 					color: @linkblue;
 					position: relative;
-					&:nth-of-type(2){
+					&#st2{
 						left: 46px;
 						text-align: center;
 					}
-					&:nth-of-type(3){
+					&#st3{
 						left: 120px;
 						text-align: center;
 					}
-					&:nth-of-type(4){
+					&#st4{
 						left: 50px+145px;
 						text-align: center;
 					}
@@ -413,11 +417,20 @@ body {
 	background-color: @redbg;
 	height: 800px;
 	.container{
-		padding-top: 30px;
-		background: url("../img/union-icon.png") 70px 40px no-repeat;
+		padding-top: 80px;
+		background: url("../img/union-icon.png") 70px 80px no-repeat;
 	}
 	.title1{
 		background: url("../img/quto2.png") 175px 0 no-repeat;
+		a.seeall{
+			font-size: 14px;
+			color: white;
+			text-decoration: none;
+			float: right;
+			width: 100px;
+			height: 60px;
+			display: block;
+		}
 	}
 	.face-frame{
 		background-color: white;

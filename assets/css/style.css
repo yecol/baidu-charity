@@ -38,8 +38,9 @@ body .tip{display:none;width:100%;height:138px;background:url("../img/tip.png") 
 #focus .frame .content{background-color:#fff;display:block;float:left;width:294px;height:228px;overflow:hidden;padding:20px}#focus .frame .content h3{font-size:20px;line-height:20px;margin-bottom:20px;font-weight:bold;color:#1f82e1}
 #focus .frame .content p{color:#6c6c6c;font-size:12px;line-height:20px}#focus .frame .content p.mr20{margin-top:20px}
 #focus .frame .content p .s{font-weight:bold}
-#focus .frame .status{background-color:#fff;display:block;float:left;width:294px;padding:10px 20px 0 20px}#focus .frame .status .tag{width:100%;height:60px;background-color:#1f82e1;padding-top:12px;color:#fff;border-radius:3px}#focus .frame .status .tag .text{float:left;width:250px}
-#focus .frame .status .tag p{font-size:14px;margin:0 0 8px 15px;line-height:20px}#focus .frame .status .tag p .f24{font-size:20px;font-weight:bold}
+#focus .frame .status{background-color:#fff;display:block;float:left;width:294px;padding:10px 20px 0 20px}#focus .frame .status .tag{width:100%;height:60px;background-color:#1f82e1;padding-top:12px;color:#fff;border-radius:3px}#focus .frame .status .tag a.taga{background-color:clear}
+#focus .frame .status .tag .text{float:left;width:250px}
+#focus .frame .status .tag p{font-size:14px;margin:0 0 8px 15px;line-height:20px;color:#fff}#focus .frame .status .tag p .f24{font-size:20px;font-weight:bold}
 #focus .frame .status .tag .next{background:url("../img/next.png") 0 7px no-repeat;width:38px;height:50px;float:left}#focus .frame .status .tag .next a{width:25px;height:48px;display:block;cursor:pointer}
 #focus .frame .status .tail{width:100%;height:6px;margin-bottom:5px;background:url("../img/blue-tail.png") 85px 0 no-repeat}
 #focus .frame .status .line{width:100%;height:26px;overflow:hidden}#focus .frame .status .line .stage1,#focus .frame .status .line .stage{cursor:pointer;float:left;display:block;width:26px;height:26px;background-repeat:repeat-x;background-position:0 0}
@@ -49,16 +50,16 @@ body .tip{display:none;width:100%;height:138px;background:url("../img/tip.png") 
 #focus .frame .status .line .seg{display:block;float:left;height:26px;width:47px;background-repeat:repeat-x;background-position:0 0;background-image:url("../img/tu_02.png")}#focus .frame .status .line .seg.unactive{background-image:url("../img/tu_04.png")}
 #focus .frame .status .line:before,#focus .frame .status .line:after{content:" ";display:table}
 #focus .frame .status .line:after{clear:both}
-#focus .frame .status .segtext{height:25px;padding-top:10px}#focus .frame .status .segtext .seg-t{float:left;width:80px;font-size:12px;color:#1f82e1;position:relative}#focus .frame .status .segtext .seg-t:nth-of-type(2){left:46px;text-align:center}
-#focus .frame .status .segtext .seg-t:nth-of-type(3){left:120px;text-align:center}
-#focus .frame .status .segtext .seg-t:nth-of-type(4){left:195px;text-align:center}
+#focus .frame .status .segtext{height:25px;padding-top:10px}#focus .frame .status .segtext .seg-t{float:left;width:80px;font-size:12px;color:#1f82e1;position:relative}#focus .frame .status .segtext .seg-t#st2{left:46px;text-align:center}
+#focus .frame .status .segtext .seg-t#st3{left:120px;text-align:center}
+#focus .frame .status .segtext .seg-t#st4{left:195px;text-align:center}
 #focus .frame .status .segtext .seg-t p{margin-bottom:5px}
 #focus .frame .status .segtext:before,#focus .frame .status .segtext:after{content:" ";display:table}
 #focus .frame .status .segtext:after{clear:both}
 #focus .frame:before,#focus .frame:after{content:" ";display:table}
 #focus .frame:after{clear:both}
-#union{background-color:#e8534f;height:800px}#union .container{padding-top:30px;background:url("../img/union-icon.png") 70px 40px no-repeat}
-#union .title1{background:url("../img/quto2.png") 175px 0 no-repeat}
+#union{background-color:#e8534f;height:800px}#union .container{padding-top:80px;background:url("../img/union-icon.png") 70px 80px no-repeat}
+#union .title1{background:url("../img/quto2.png") 175px 0 no-repeat}#union .title1 a.seeall{font-size:14px;color:#fff;text-decoration:none;float:right;width:100px;height:60px;display:block}
 #union .face-frame{background-color:#fff;border-radius:5px;height:700px;background-color:#e8534f}#union .face-frame:before,#union .face-frame:after{content:" ";display:table}
 #union .face-frame:after{clear:both}
 #union .face-frame ul{position:relative;list-style:none}#union .face-frame ul li,#union .face-frame ul .face{display:list-item;position:absolute;background-color:#333}#union .face-frame ul li.face2,#union .face-frame ul .face.face2{height:268px;width:268px}

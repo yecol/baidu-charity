@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
+				"clear",
+				"clear"
+			],
+			[
 				"back",
-				"background"
+				"background-color"
 			],
 			[
 				"has",
@@ -168,10 +172,6 @@
 				"border-bottom"
 			],
 			[
-				"clear",
-				"clearfix"
-			],
-			[
 				"ba",
 				"background"
 			],
@@ -295,7 +295,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 15275,
+				"buffer_size": 15365,
 				"line_ending": "Windows"
 			}
 		},
@@ -303,7 +303,7 @@
 			"file": "assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 16133,
+				"buffer_size": 16200,
 				"line_ending": "Windows"
 			}
 		},
@@ -311,7 +311,7 @@
 			"file": "assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 17202,
+				"buffer_size": 17744,
 				"line_ending": "Unix"
 			}
 		},
@@ -436,6 +436,7 @@
 	},
 	"file_history":
 	[
+		"/D/skydrive/GoodReader/spank/lust/荒村恶童.txt",
 		"/D/workspace_git/baidu-charity/assets/css/effect.css",
 		"/D/workspace_git/baidu-charity/union.html",
 		"/D/workspace_git/baidu-charity/focus.html",
@@ -532,6 +533,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tag",
 			"ib2",
 			";\n",
 			"font-family",
@@ -608,15 +610,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 15275,
+						"buffer_size": 15365,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1989,
-								1989
+								3938,
+								3938
 							]
 						],
 						"settings":
@@ -629,7 +631,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 925.0,
+						"translation.y": 2245.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -645,15 +647,15 @@
 					"file": "assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 16133,
+						"buffer_size": 16200,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10330,
-								10330
+								5161,
+								5161
 							]
 						],
 						"settings":
@@ -665,7 +667,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2178.0,
+						"translation.y": 6349.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -675,15 +677,15 @@
 					"file": "assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 17202,
+						"buffer_size": 17744,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12273,
-								12276
+								0,
+								0
 							]
 						],
 						"settings":

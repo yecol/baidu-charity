@@ -43,7 +43,7 @@
             <ul>
                 <li id="l1"><a href="#top" id="ftop">首页</a></li>
                 <li id="l2"><a href="#focus" id="ffocus" class="active">焦点救助</a></li>
-                <li id="l3"><a href="#union" id="funion">联盟公约</a></li>
+                <li id="l3"><a href="#union" id="funion">健康公益联盟</a></li>
             </ul>
             </div>
             <div class="nav-rp">
@@ -90,20 +90,22 @@
             <div class="mid-container" id="fmc">
             <div class="title1">焦点救助</div>    
             <div class="frame">
-                <div class="image"><a href="#"><img src="./images/pic_1.jpg"></a></div>
+                <div class="image"><a href="focus.html"><img src="./images/pic_1.jpg"></a></div>
                 <div class="content">
-                    <h3><a href="#">北京市老年疾病救助公益活动</a></h3>
+                    <h3><a href="focus.html">北京市老年疾病救助公益活动</a></h3>
                     <p>主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述描述主题救助活动描述主题救助活动描述主题救</p>
                     <p class="mr20"><span class="s">参与救助机构：</span>中国红十字会，中国红十字会，中国红十字会，中国红十字会，中国红十字会...
                     <p class="mr20"><span class="s">救助医院：</span>回龙观医院</p>
                 </div>
                 <div class="status">
                     <div class="tag">
+                        <a href="focus.html" class="taga">
                         <div class="text">
                         <p>当前进展：<span class="f24">救助中</span></p>
                         <p>已救助：<span class="f24">2,415人</span></p>
                         </div>
-                        <div class="next"><a href="#"></a></div>
+                        <div class="next"></div>
+                        </a>
                     </div>
                     <!-- TODO:数字序号写在这里，如这里表示激活第3个 -->
                     <div id="cura" class="hide">3</div>
@@ -121,10 +123,10 @@
                         <div class="seg"></div>
                     </div>
                     <div class="segtext">
-                        <div class="seg-t"><p>开始</p><p>2013-10-11</p></div>
-                        <div class="seg-t"><p>开始</p><p>2013-10-11</p></div>
-                        <div class="seg-t"><p>开始</p><p>2013-10-11</p></div>
-                        <div class="seg-t"><p>开始</p><p>2013-10-11</p></div>
+                        <div class="seg-t" id="st1"><p>开始</p><p>2013-10-11</p></div>
+                        <div class="seg-t" id="st2"><p>开始</p><p>2013-10-11</p></div>
+                        <div class="seg-t" id="st3"><p>开始</p><p>2013-10-11</p></div>
+                        <div class="seg-t" id="st4"><p>开始</p><p>2013-10-11</p></div>
                     </div>
                 </div>
             </div>
@@ -135,7 +137,7 @@
         <div class="section" id="union" name="sn3">
             <div class="container">
             <div class="mid-container">
-            <div class="title1">健康公益联盟</div>    
+            <div class="title1">健康公益联盟<a class="seeall" href="union.html">全部联盟成员</a></div>    
             <div class="face-frame">
                 <ul>
                     <!-- line1 -->
@@ -183,17 +185,17 @@
     <div class="form-group row">
         <label for="username" class="col-sm-2 control-label"><span class="cred">*</span>姓名:</label>
             <div class="col-xs-4">
-                <input type="text" id="username" class="form-control">
+                <input type="text" id="username" name="poname" class="form-control">
             </div>
         <label for="tel" class="col-sm-2 control-label"><span class="cred">*</span>电话:</label>
             <div class="col-xs-4">
-                <input type="text" id="tel" class="form-control">
+                <input type="text" id="tel" class="form-control" name="potel">
             </div>
     </div>
     <div class="form-group row">
         <label for="address" class="col-sm-2 control-label"><span class="cred">*</span>地址:</label>
             <div class="col-xs-3">
-                <select class="form-control">
+                <select class="form-control" id="provjs" name="popro">
                   <option>1</option>
                   <option>2</option>
                   <option>3</option>
@@ -202,40 +204,32 @@
                 </select>
             </div>
             <div class="col-xs-3">
-                <select class="form-control">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
+                <select class="form-control" id="cityjs" name="pocit">
+                  <option>请选择</option>
                 </select>
             </div>
             <div class="col-xs-4">
-                <select class="form-control">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                  <option>5</option>
+                <select class="form-control" id="cotyjs" name="pocty">
+                  <option>请选择</option>
                 </select>
             </div>
     </div>
     <div class="form-group">
         <label for="detailaddress" class="col-sm-2 control-label">详细地址:</label>
         <div class="col-sm-10">
-            <input type="email" class="form-control" id="detailaddress">
+            <input type="email" class="form-control" id="detailaddress" name="poaddr">
         </div>
     </div>
     <div class="form-group">
         <label for="desc" class="col-sm-2 control-label"><span class="cred">*</span>病情描述:</label>
         <div class="col-sm-10">
-            <textarea class="form-control" rows="3"></textarea>
+            <textarea class="form-control" rows="3" name="podesc"></textarea>
         </div>
     </div>
     <div class="form-group">
         <label for="other" class="col-sm-2 control-label">备注:</label>
         <div class="col-sm-10">
-            <textarea class="form-control" rows="3"></textarea>
+            <textarea class="form-control" rows="3" name="pops"></textarea>
         </div>
     </div>
 
@@ -262,13 +256,16 @@
         <script src="./assets/js/bootstrap.min.js"></script>
         <script>
         $fposito = 0;
+        $temph = 0;
+        $pt = 0;
         $(document).ready(function() {
             /* resize section */
             $vsbheight = $(window).height();
             if($vsbheight>$("#focus").height()){
                 $("#focus").height($vsbheight);
                 $pt = ($("#focus").height()-494)/2
-                $("#focus .container").css({"padding-top":$pt,"background-position-y":$pt+10});
+                $("#focus .container").css({"padding-top":$pt,"padding-bottom":$pt,"background-position":"70px "+parseInt($pt+10,0)+"px"});
+                $temph=$pt+10;
             }
             /* scroll */
             $("#nav ul a").click(function(e) {
@@ -304,7 +301,7 @@
                     }
                     k++;
                 });
-                $(".tail").css("background-position-x",$taila[$cura]);
+                $(".tail").css("background-position",$taila[$cura]+"px 0px");
                 if($cura==0){
                     $(".stage1").addClass('active');
                 }
@@ -313,9 +310,9 @@
             $(".stage,.stage1").click(function() {
                 if($cura==0)return;
                 if($(this).hasClass('unactive'))return;
-                $(".tail").css("background-position-x",$taila[$(this).index()/2]);
-                $(this).addClass('active');
-                $(this).siblings('.active').removeClass('active');
+                $(".tail").css("background-position",$taila[$(this).index()/2]+"px 0px");
+                //$(this).addClass('active');
+                //$(this).siblings('.active').removeClass('active');
                 $index_2=$(this).index()/2;
                 $(".seg-t").each(function(k){
                     if(k!=$index_2){
@@ -335,6 +332,47 @@
             }
             */
             );
+            /*省市县的获取*/
+            $prourl="pros.json";//TODO 网址
+            $citurl="city.json";
+            $ctyurl="country.json";
+            $.getJSON( $prourl, function(response){
+                $options = 0;
+                $.each(response.data, function( key, val ) {
+                    $options+=( "<option value='" + key + "'>" + val + "</option>" );
+                });
+                $("#provjs").html($options);
+            });
+
+            $("#provjs").change(function(){
+                //修改文字
+                $.getJSON( $citurl, function(response){
+                    $options = 0;
+                    $.each(response.data, function( key, val ) {
+                        $options+=( "<option value='" + key + "'>" + val + "</option>" );
+                    });
+                    $("#cityjs").html($options);
+                });
+                $("#detailaddress").val($("#provjs option:selected").html());
+                $("#cotyjs").html("<option>请选择</option>");
+            });
+
+            $("#cityjs").change(function(){
+                //修改文字
+                $.getJSON( $ctyurl, function(response){
+                    $options = 0;
+                    $.each(response.data, function( key, val ) {
+                        $options+=( "<option value='" + key + "'>" + val + "</option>" );
+                    });
+                    $("#cotyjs").html($options);
+                });
+                $("#detailaddress").val($("#provjs option:selected").html()+$("#cityjs option:selected").html());
+            });
+
+            $("#cotyjs").change(function(){
+                $("#detailaddress").val($("#provjs option:selected").html()+$("#cityjs option:selected").html()+$("#cotyjs option:selected").html()); 
+            })
+
 
             /*表单数据传输和处理*/
             /* open form*/
@@ -345,17 +383,22 @@
             });
 
             $(".send-help").click(function(e) {
-                $("#yModal").modal('hide');
-                //TODO:发送数据
-                
-                //TODO如果成功
-                {
-                    $(".tip").css("top",$(window).scrollTop()+$(window).height()/2).show();
-                    setTimeout(function(){
-                        $('.tip').hide();
-                    }, 2000);
-                }
                 e.preventDefault();
+                $("#yModal").modal('hide');
+                //发送数据
+                $.ajax({
+                    type:"POST",
+                    url: "http://baidu.com",//TODO:修改网址
+                    data: $("#help-form").serialize(),
+                    success: function(data){              
+                        if (data) {//TODO:如果成功,返回的data是怎样
+                            $(".tip").css("top",$(window).scrollTop()+$(window).height()/2).show();
+                            setTimeout(function(){
+                                $('.tip').hide();
+                            }, 2000);
+                        };
+                    }
+                });        
             });
 
         });
@@ -365,12 +408,19 @@
             if($vsbheight>$("#focus").height()){
                 $("#focus").height($vsbheight);
                 $pt = ($("#focus").height()-494)/2
-                $("#focus .container").css({"padding-top":$pt,"background-position-y":$pt+10});
+                $("#focus .container").css({"padding-top":$pt,"padding-bottom":$pt,"background-position":"70px "+parseInt($pt+10,0)+"px"});
+                $temph=$pt+10;
             }
             $('.fixer').css('padding-left',($('#fmc').offset().left+475)); 
         });
         $(window).scroll(function(){
-            var h_num=$(window).scrollTop();   
+            var h_num=$(window).scrollTop();
+            
+            if(h_num>=$("#focus").offset().top+$pt-60){
+                //alert($temph);
+                $num=parseInt(h_num-($("#focus").offset().top)-$pt+30,10)+parseInt($temph, 10);
+                $("#focus .container").css("background-position","70px "+$num +"px");
+            }
             if(h_num>=$("#focus").offset().top){
                 $('.fixer').css('padding-left',($('#fmc').offset().left+475)); 
                 $('#ffocus').addClass('active');
