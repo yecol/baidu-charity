@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"inli",
+				"inline"
+			],
+			[
+				"col",
+				"col-xs-4"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"se",
+				"serialize	.serialize()"
+			],
+			[
+				"ba",
+				"background-position-y"
+			],
+			[
+				"contai",
+				"container"
+			],
+			[
 				"clear",
 				"clear"
 			],
@@ -32,32 +88,12 @@
 				"stage1"
 			],
 			[
-				"padding",
-				"padding-left"
-			],
-			[
-				"inli",
-				"inline"
-			],
-			[
-				"fon",
-				"font-weight"
-			],
-			[
 				"font",
 				"font-size"
 			],
 			[
-				"text",
-				"text-decoration"
-			],
-			[
 				"bo",
 				"border-radius"
-			],
-			[
-				"mar",
-				"margin-right"
 			],
 			[
 				"rea",
@@ -70,10 +106,6 @@
 			[
 				"list",
 				"list-style-position"
-			],
-			[
-				"padd",
-				"padding-left"
 			],
 			[
 				"i",
@@ -93,10 +125,6 @@
 			],
 			[
 				"inlin",
-				"inline-block"
-			],
-			[
-				"in",
 				"inline-block"
 			],
 			[
@@ -126,10 +154,6 @@
 			[
 				"nav",
 				"nav-btn"
-			],
-			[
-				"inline",
-				"inline-block"
 			],
 			[
 				"hea",
@@ -170,10 +194,6 @@
 			[
 				"border-bo",
 				"border-bottom"
-			],
-			[
-				"ba",
-				"background"
 			],
 			[
 				"quto",
@@ -295,31 +315,31 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 15365,
+				"buffer_size": 19804,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/css/style.less",
+			"file": "static/assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 16200,
+				"buffer_size": 17093,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/css/style.css",
+			"file": "static/assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 17744,
+				"buffer_size": 18700,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "assets/css/effect.css",
+			"file": "static/assets/css/form.css",
 			"settings":
 			{
-				"buffer_size": 2881,
+				"buffer_size": 37221,
 				"line_ending": "Windows"
 			}
 		}
@@ -436,21 +456,31 @@
 	},
 	"file_history":
 	[
-		"/D/skydrive/GoodReader/spank/lust/荒村恶童.txt",
-		"/D/workspace_git/baidu-charity/assets/css/effect.css",
-		"/D/workspace_git/baidu-charity/union.html",
-		"/D/workspace_git/baidu-charity/focus.html",
+		"/D/workspace_git/baidu-charity/index1.html",
+		"/D/workspace_git/baidu-charity/static/assets/css/form1.css",
+		"/D/workspace_git/baidu-charity/sftp-config.json",
 		"/D/workspace_git/baidu-charity/index.html",
+		"/D/workspace_git/baidu-charity/static/assets/js/system/system.js",
+		"/D/workspace_git/baidu-charity/static/assets/js/system/validate.js",
+		"/D/workspace_git/baidu-charity/assets/css/style.less",
 		"/D/workspace_git/baidu-charity/assets/css/style.css",
 		"/D/workspace_git/baidu-charity/assets/css/form.css",
+		"/D/workspace_git/baidu-charity/union.html",
+		"/D/workspace_git/baidu-charity/country.json",
+		"/D/workspace_git/baidu-charity/city.json",
+		"/C/Users/Yecol/Documents/Tencent Files/148269281/FileRecv/js/system.js",
+		"/D/workspace_git/baidu-charity/pros.json",
+		"/D/workspace_git/baidu-charity/pros.html",
+		"/D/workspace_git/baidu-charity/assets/css/effect.css",
+		"/D/workspace_git/rcbd/BDA.html",
+		"/D/skydrive/GoodReader/spank/lust/荒村恶童.txt",
+		"/D/workspace_git/baidu-charity/focus.html",
 		"/C/Users/Yecol/Desktop/bootstrap.css",
 		"/D/workspace_git/baidu-charity/assets/css/bootstrap.css",
 		"/D/workspace_git/baidu-charity-1107/assets/css/style.css",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Less2Css/less2css.sublime-settings",
 		"/D/workspace_git/baidu-charity/assets/css/reset.css",
 		"/D/workspace_git/yecols.cn/assets/css/style.less",
-		"/D/workspace_git/baidu-charity/assets/css/style.less",
-		"/D/workspace_git/baidu-charity/sftp-config.json",
 		"/D/workspace_git/yecols.cn/sftp-config.json",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/User/sftp_servers/yecolscn",
 		"/D/workspace_git/yecols.cn/photos/landscape.php",
@@ -533,6 +563,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"inline-block",
+			"form",
+			"/static",
+			"*wi",
+			"form",
+			"inline-block",
+			"inline",
+			"0px",
+			"background-position-x",
+			"background-position",
+			"background",
+			"form",
+			"parse",
+			"fposito",
+			"union",
 			"tag",
 			"ib2",
 			";\n",
@@ -610,15 +655,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 15365,
+						"buffer_size": 19804,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3938,
-								3938
+								5750,
+								5750
 							]
 						],
 						"settings":
@@ -631,7 +676,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2245.0,
+						"translation.y": 2604.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -639,23 +684,23 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 1,
-					"file": "assets/css/style.less",
+					"file": "static/assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 16200,
+						"buffer_size": 17093,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5161,
-								5161
+								2633,
+								2633
 							]
 						],
 						"settings":
@@ -667,17 +712,46 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6349.0,
+						"translation.y": 2852.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "assets/css/style.css",
+					"file": "static/assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 17744,
+						"buffer_size": 18700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2312,
+								2312
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "static/assets/css/form.css",
+					"settings":
+					{
+						"buffer_size": 37221,
 						"regions":
 						{
 						},
@@ -693,41 +767,12 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1839.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "assets/css/effect.css",
-					"settings":
-					{
-						"buffer_size": 2881,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								264,
-								264
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
 							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 198.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -763,7 +808,7 @@
 		"cols":
 		[
 			0.0,
-			0.621787025704,
+			0.696150416988,
 			1.0
 		],
 		"rows":
@@ -806,6 +851,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 286.0,
+	"side_bar_width": 182.0,
 	"status_bar_visible": true
 }

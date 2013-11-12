@@ -9,7 +9,8 @@
         <title>
             百度公益联盟
         </title>
-        <link href="/static/assets/css/form.css" rel="stylesheet" type="text/css">
+        <!-- <link href="/static/assets/css/form.css" rel="stylesheet" type="text/css"> -->
+        <link href="/static/assets/css/form1.css" rel="stylesheet" type="text/css">
         <link href="/static/assets/css/style.css" rel="stylesheet" type="text/css">
 
         <!--[if lt IE 9]>
@@ -110,7 +111,7 @@
                         </a>
                     </div>
                     <!-- TODO:数字序号写在这里，如这里表示激活第3个 -->
-                    <div id="cura" class="hide">4</div>
+                    <div id="cura" class="hide">3</div>
 
                     <div class="tail">
                     </div>
@@ -124,7 +125,6 @@
                         <a class="stage"></a>
                         <div class="seg"></div>
                     </div>
-                    <!-- TODO:填写状态，有几个写几个 -->
                     <div class="segtext">
                         <div class="seg-t" id="st1"><p>开始</p><p>2013-10-11</p></div>
                         <div class="seg-t" id="st2"><p>开始</p><p>2013-10-11</p></div>
@@ -169,7 +169,7 @@
         </div>
 
         <div class="section" id="footer">
-            <p>©2013 Baidu <a href="http://www.baidu.com/duty/">使用百度必读</a> 国家药监局：（京）-经营性-2012-0009</p>
+            <p>©2013 Baidu 使用前必读 <a href="baidu.com" target="_blank">百度首页</a></p>
         </div>
 
 
@@ -244,7 +244,7 @@
     </div>
   </div>
   <div class="ygroup">
-    <div class="pull-center">
+    <div class="col-sm-offset-2 col-sm-8 pull-center">
       <button type="submit" class="send-help"></button>
     </div>
   </div>
@@ -261,8 +261,8 @@
         <script src="/static/assets/js/bootstrap.min.js"></script>
 
         <!-- 输入校验 -->
-        <script src="/static/js/system/system.js"></script>
-        <script src="/static/js/system/validate.js"></script>
+        <script src="/static/assets/js/system/system.js"></script>
+        <script src="/static/assets/js/system/validate.js"></script>
         <!-- 输入校验 -->
 
         <script>
@@ -340,18 +340,27 @@
                     });
                 }, 1000);
             }
+            /*
+            ,function(){
+                if($cura==0)return;
+                $(".tail").css("background-position-x",$taila[$cura]);
+                $(this).removeClass('active');
+                $(".stage").eq($cura-1).addClass('active');
+            }
+            */
             , function() {
                 clearTimeout(timer);
+
                 timer = setTimeout(function() {
                     /* 恢复当前状态的效果 */
-                    $(".tail").css("background-position",$taila[$cura]+"px 0px");
+                    $(".tail").css("background-position", "152px 0px");
               
                     //TODO 找到当前状态element的index
                     $(".seg-t").each(function(k){
-                        if (k!=$cura) {
-                            $(this).hide();
+                        if (k == 2) {
+                            $(this).show();
                         } else {
-                            $(this).show();    
+                            $(this).hide();    
                         }
                         k++;
                     });
@@ -360,7 +369,8 @@
             );
 
             /*省市县的获取*/
-            $prourl="/location/api/provinces/";
+            //$prourl="/location/api/provinces/";
+            $prourl="/pros.json";
             $ctyurl="country.json";
             $.getJSON( $prourl, function(response){
                 $options = "<option value='0'>请选择</option>";
@@ -457,9 +467,9 @@
                 $("#focus .container").css("background-position","70px "+$num +"px");
             }
 
-            if(h_num>=$("#union").offset().top+80-60){
+            if(h_num>=$("#union").offset().top+$pt-60){
                 //alert($temph);
-                $num=parseInt(h_num-($("#union").offset().top)-80+30,10)+parseInt($temph, 10);
+                $num=parseInt(h_num-($("#union").offset().top)-$pt+30,10)+parseInt($temph, 10);
                 $("#union .container").css("background-position","70px "+$num +"px");
             }
 
@@ -478,11 +488,6 @@
                 $('#nav').hide();    
             } 
         });  
-        </script>
-
-        <script type="text/javascript">
-            var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-            document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F6b83942048be2f98b58cb7e82a710c44' type='text/javascript'%3E%3C/script%3E"));
         </script>
   </body>
 </html>

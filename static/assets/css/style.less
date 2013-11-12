@@ -146,6 +146,9 @@ body {
 				}
 			}
 		}
+		.t2l{
+			*display: inline;
+		}
 		.t2r{
 			display: inline-block;
 			width: 400px;
@@ -157,9 +160,12 @@ body {
 				margin-bottom: 10px;
 			}
 		}
+		.t2r{
+			*display: inline;
+		}
 	}
 	.detail{
-		width: 960px;
+		width: 970px;
 		margin: 0 160px 0 160px;
 		color: white;
 		font-size: 16px;
@@ -635,20 +641,74 @@ body {
 			}
 
 		}
+		li{
+			*display: inline;
+		}
 	}
 }
 
 #help-form{
-	*,
-	*:before,
-	*:after {
-	  -webkit-box-sizing: border-box;
-	  -moz-box-sizing: border-box;
-	  box-sizing: border-box;
+	width: 560px;
+	.clearfix;
+	.col-xs-3{
+		float: left;
+		display: inline-block;
+		width: 145px;
+		padding-left: 15px;
+		padding-right: 0;
+	}
+	.col-xs-3{
+		*display: inline;
+	}
+	.col-xs-4{
+		float: left;
+		display: inline-block;
+		width: 160px;
+		margin-right: 18px;
+	}
+	.col-xs-4{
+		*display: inline;
+	}
+	.col-sm-10{
+		float: left;
+		display: inline-block;
+		width: 450px;
+	}
+	.col-sm-10{
+		*display: inline;
+	}
+	.label-1,.label-2{
+		padding-top: 5px;
+		text-align: right;
+		width: 70px;
+		height: 25px;
+		display: inline-block;
+		float: left;
+	}
+	.label-1,.label-2{
+		*display: inline;
+	}
+	.ygroup{
+		width: 560px;
+		float:left;
+		margin-bottom: 20px;
+		select{
+			width: 140px;
+		}
+		.longinput{
+			width: 450px;
+		}
+		textarea{
+			width: 450px;
+		}
 	}
 	label{
 		color: #666666;
 		font-size: 14px;
+	}
+	.pull-center{
+		width: 560px;
+		float: left;
 	}
 	.send-help{
 		border: 0;

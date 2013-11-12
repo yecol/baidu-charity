@@ -9,29 +9,29 @@
         <title>
             百度公益联盟
         </title>
-        <link href="./assets/css/effect.css" rel="stylesheet" type="text/css">
-        <link href="./assets/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css">
-        <link href="./assets/css/style.css" rel="stylesheet" type="text/css">
+        <link href="/static/assets/css/effect.css" rel="stylesheet" type="text/css">
+        <link href="/static/assets/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css">
+        <link href="/static/assets/css/style.css" rel="stylesheet" type="text/css">
 
         <!--[if lt IE 9]>
-        <script src="./assets/js/html5shiv.js"></script>
-        <script src="./assets/js/respond.min.js"></script>
+        <script src="/static/assets/js/html5shiv.js"></script>
+        <script src="/static/assets/js/respond.min.js"></script>
         <![endif]-->
     </head>
     
     <body>
         <div class="header" id="top">
             <ul>
-                <li><a href="index.html">首页</a></li>
-                <li class="active"><a href="focus.html" class="active">焦点救助</a></li>
-                <li><a href="union.html" >联盟公约</a></li>
+                <li><a href="/">首页</a></li>
+                <li class="active"><a href="/focus/" class="active">焦点救助</a></li>
+                <li><a href="/union/" >联盟公约</a></li>
             </ul>
         </div>
 
         <div class="section-focus" id="page-focus">
             <div class="fcontainer">
                 <div class="frame">
-                    <div class="image"><img src="./images/pic_2.jpg"></div>
+                    <div class="image"><img src="/static/img/pic_2.jpg"></div>
                     <div class="content">
                         <div class="up-content">
                         <h3>北京市老年疾病救助公益活动</h3>
@@ -54,7 +54,7 @@
                 <ul id="carousel" class="jcarousel-skin-tango">
                         <li class="c-li cli-1">
                             <div class="c-l">
-                                <img src="./images/face-2.jpg" />
+                                <img src="/static/img/face-2.jpg" />
                                 <p>2012-02-17</p>
                             </div>
                             <div class="c-r">
@@ -64,7 +64,7 @@
                         </li>
                         <li class="c-li cli-active">
                             <div class="c-l">
-                                <img src="./images/face-2.jpg" />
+                                <img src="/static/img/face-2.jpg" />
                                 <p>2012-02-17</p>
                             </div>
                             <div class="c-r">
@@ -116,11 +116,11 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
                     <div class="pics">
                         <div class="title">相关图片</div>
                         <p>白内障复明工作大型公益活动讲座1</p>
-                        <a rel="group" class="fancy" href="./images/pic_2.jpg" alt="白内障复明工作大型公益活动讲座1"><img src="./images/pic_3.jpg"></img></a>
+                        <a rel="group" class="fancy" href="/static/img/pic_2.jpg" alt="白内障复明工作大型公益活动讲座1"><img src="/static/img/pic_3.jpg"></img></a>
                         <p>白内障复明工作大型公益活动讲座2</p>
-                        <a rel="group" class="fancy" href="./images/pic_2.jpg" alt="白内障复明工作大型公益活动讲座2"><img src="./images/pic_3.jpg"></img></a>
+                        <a rel="group" class="fancy" href="/static/img/pic_2.jpg" alt="白内障复明工作大型公益活动讲座2"><img src="/static/img/pic_3.jpg"></img></a>
                         <p>白内障复明工作大型公益活动讲座3</p>
-                        <a rel="group" class="fancy" href="./images/pic_2.jpg" alt="白内障复明工作大型公益活动讲座3"><img src="./images/pic_3.jpg"></img></a>
+                        <a rel="group" class="fancy" href="/static/img/pic_2.jpg" alt="白内障复明工作大型公益活动讲座3"><img src="/static/img/pic_3.jpg"></img></a>
                     </div>
                 </div>
                 <div class="frame-footer">
@@ -171,11 +171,11 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
         </div>
 
         <div class="section" id="footer">
-            <p>©2013 Baidu 使用前必读 <a href="http://baidu.com" target="_blank">百度首页</a></p>
+            <p>©2013 Baidu <a href="http://www.baidu.com/duty/">使用百度必读</a> 国家药监局：（京）-经营性-2012-0009</p>
         </div>
-        <script src="./assets/js/jquery-1.10.2.min.js"></script>
-        <script src="./assets/js/jquery.jcarousel.min.js"></script>
-        <script src="./assets/fancybox/jquery.fancybox.pack.js"></script>
+        <script src="/static/assets/js/jquery-1.10.2.min.js"></script>
+        <script src="/static/assets/js/jquery.jcarousel.min.js"></script>
+        <script src="/static/assets/fancybox/jquery.fancybox.pack.js"></script>
         <script>
         $(document).ready(function() {
             $('#carousel').jcarousel();
@@ -188,6 +188,11 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
                 }
             });
         });
+        </script>
+
+        <script type="text/javascript">
+            var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F6b83942048be2f98b58cb7e82a710c44' type='text/javascript'%3E%3C/script%3E"));
         </script>
   </body>
 </html>
