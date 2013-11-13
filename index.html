@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-cn">
     <head>
         <meta charset="utf-8">
@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="yecol">
         <title>
-            百度公益联盟
+            百度健康公益联盟
         </title>
         <link href="/static/assets/css/form.css" rel="stylesheet" type="text/css">
         <link href="/static/assets/css/style.css" rel="stylesheet" type="text/css">
@@ -90,7 +90,9 @@
         <div class="section" id="focus" name="sn2">
             <div class="container">
             <div class="mid-container" id="fmc">
-            <div class="title1">焦点救助</div>    
+            <div class="title">
+            <div class="title1">焦点救助</div>
+            </div>   
             <div class="frame">
                 <div class="image"><a href="/focus/"><img src="/static/img/pic_1.jpg"></a></div>
                 <div class="content">
@@ -104,7 +106,6 @@
                         <a href="/focus/" class="taga">
                         <div class="text">
                         <p>当前进展：<span class="f24">救助中</span></p>
-                        <p>已救助：<span class="f24">2,415人</span></p>
                         </div>
                         <div class="next"></div>
                         </a>
@@ -140,7 +141,9 @@
         <div class="section" id="union" name="sn3">
             <div class="container">
             <div class="mid-container">
-            <div class="title1">健康公益联盟<a class="seeall" href="/union/">联盟公约</a></div>    
+            <div class="title">
+            <div class="title1">健康公益联盟<a class="seeall" href="/union/">联盟公约</a></div>
+            </div> 
             <div class="face-frame">
                 <ul>
                     <!-- line1 -->
@@ -201,26 +204,29 @@
     <div class="ygroup">
          <label for="address" class="label-1"><span class="cred">*</span>地址:</label>
             <div class="col-xs-3">
-                <select class="form-control" id="provjs" name="province">
-                  <option>请选择</option>
+                <select class="form-control" id="provjs" name="province" type="text" data-validate="require-select-valid-option">
+                  <option value='-1'>请选择</option>
                 </select>
+                <div class="errorHint"></div>
             </div>
             <div class="col-xs-3">
-                <select class="form-control" id="cityjs" name="city">
-                  <option>请选择</option>
+                <select class="form-control" id="cityjs" name="city" type="text" data-validate="require-select-valid-option">
+                  <option value='-1'>请选择</option>
                 </select>
+                <div class="errorHint"></div>
             </div>
             <div class="col-xs-3">
-                <select class="form-control" id="cotyjs" name="country">
-                  <option>请选择</option>
+                <select class="form-control" id="cotyjs" name="country" type="text" data-validate="require-select-valid-option">
+                  <option value='-1'>请选择</option>
                 </select>
+                <div class="errorHint"></div>
             </div>
     </div>
 
     <div class="ygroup">
-        <label for="detailaddress" class="label-1">详细地址:</label>
+        <label for="detailaddress" class="label-1"><span class="cred">*</span>详细地址:</label>
         <div class="col-sm-10">
-            <input type="email" class="longinput" id="detailaddress" name="address" data-validate="required-none">
+            <input class="longinput" id="detailaddress" name="address" data-validate="required-none">
             <div class="errorHint"></div>
         </div>
     </div>
@@ -323,7 +329,7 @@
             $(".stage,.stage1").hover(function() {
                 $curStage = $(this);
                 clearTimeout(timer);
-                timer = setTimeout(function() {
+                // timer = setTimeout(function() {
                     if($cura==0)return;
                     if($curStage.hasClass('unactive'))return;
                     $(".tail").css("background-position",$taila[$curStage.index()/2]+"px 0px");
@@ -338,7 +344,7 @@
                         }
                         k++;
                     });
-                }, 1000);
+                // }, 1000);
             }
             , function() {
                 clearTimeout(timer);
@@ -355,7 +361,7 @@
                         }
                         k++;
                     });
-                }, 500);
+                }, 300);
             }
             );
 
@@ -363,7 +369,7 @@
             $prourl="/location/api/provinces/";
             $ctyurl="country.json";
             $.getJSON( $prourl, function(response){
-                $options = "<option value='0'>请选择</option>";
+                $options = "<option value='-1'>请选择</option>";
                 $.each(response.data, function( key, val ) {
                     $options+=( "<option value='" + key + "'>" + val + "</option>" );
                 });
@@ -376,14 +382,14 @@
 
                 //修改文字
                 $.getJSON( $citurl, function(response){
-                    $options = "<option value='0'>请选择</option>";
+                    $options = "<option value='-1'>请选择</option>";
                     $.each(response.data, function( key, val ) {
                         $options+=( "<option value='" + key + "'>" + val + "</option>" );
                     });
                     $("#cityjs").html($options);
                 });
                 $("#detailaddress").val($("#provjs option:selected").html());
-                $("#cotyjs").html("<option>请选择</option>");
+                $("#cotyjs").html("<option value='-1'>请选择</option>");
             });
 
             $("#cityjs").change(function(){
@@ -392,7 +398,7 @@
 
                 //修改文字
                 $.getJSON( $ctyurl, function(response){
-                    $options = "<option value='0'>请选择</option>";
+                    $options = "<option value='-1'>请选择</option>";
                     $.each(response.data, function( key, val ) {
                         $options+=( "<option value='" + key + "'>" + val + "</option>" );
                     });
@@ -410,7 +416,11 @@
             $(".req-help").click(function(e) {
                 /* Act on the event */
                 e.preventDefault();
+                $("#help-form")[0].reset();
 
+                $('div[class="errorHint"]').each(function() {
+                    $(this).text('');
+                })
                 $('#yModal').modal();
             });
 
@@ -420,6 +430,7 @@
                 }
 
                 e.preventDefault();
+                
                 $("#yModal").modal('hide');
                 //发送数据
                 $.ajax({
@@ -455,13 +466,17 @@
                 //alert($temph);
                 $num=parseInt(h_num-($("#focus").offset().top)-$pt+30,10)+parseInt($temph, 10);
                 $("#focus .container").css("background-position","70px "+$num +"px");
-            }
+            }else{
+		$pt = ($("#focus").height()-494)/2
+                $("#focus .container").css({"padding-top":$pt,"padding-bottom":$pt,"background-position":"70px "+parseInt($pt+10,0)+"px"});
+	    }
 
             if(h_num>=$("#union").offset().top+80-60){
-                //alert($temph);
-                $num=parseInt(h_num-($("#union").offset().top)-80+30,10)+parseInt($temph, 10);
+                $num=parseInt(h_num-($("#union").offset().top)+60,10);
                 $("#union .container").css("background-position","70px "+$num +"px");
-            }
+            }else{
+		$("#union .container").css("background-position","70px 80px");
+	    }
 
             if(h_num>=$("#focus").offset().top){
                 $('.fixer').css('padding-left',($('#fmc').offset().left+475)); 

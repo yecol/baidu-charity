@@ -4,16 +4,28 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"titl",
+				"title"
+			],
+			[
 				"mar",
 				"margin-bottom"
 			],
 			[
 				"padd",
 				"padding-right"
-			],
-			[
-				"padding",
-				"padding-left"
 			],
 			[
 				"inli",
@@ -64,10 +76,6 @@
 				"clear"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"has",
 				"hasClass	.hasClass"
 			],
@@ -86,10 +94,6 @@
 			[
 				"sta",
 				"stage1"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"bo",
@@ -315,7 +319,23 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 19804,
+				"buffer_size": 20599,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "focus.html",
+			"settings":
+			{
+				"buffer_size": 10463,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "union.html",
+			"settings":
+			{
+				"buffer_size": 3689,
 				"line_ending": "Windows"
 			}
 		},
@@ -323,7 +343,7 @@
 			"file": "static/assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 17093,
+				"buffer_size": 17360,
 				"line_ending": "Windows"
 			}
 		},
@@ -331,16 +351,8 @@
 			"file": "static/assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 18700,
+				"buffer_size": 18968,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "static/assets/css/form.css",
-			"settings":
-			{
-				"buffer_size": 37221,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -456,6 +468,10 @@
 	},
 	"file_history":
 	[
+		"/D/workspace_git/rcbd/Index_V3.css",
+		"/D/workspace_git/baidu-charity/style.css",
+		"/D/workspace_git/baidu-charity/static/assets/css/form.css",
+		"/D/workspace_git/baidu-charity/static/assets/css/style.css",
 		"/D/workspace_git/baidu-charity/index1.html",
 		"/D/workspace_git/baidu-charity/static/assets/css/form1.css",
 		"/D/workspace_git/baidu-charity/sftp-config.json",
@@ -549,7 +565,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -563,6 +579,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tag",
+			"f24",
+			"quto1.png",
+			"quto.png",
+			"title1",
+			"title2",
 			"inline-block",
 			"form",
 			"/static",
@@ -655,15 +677,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 19804,
+						"buffer_size": 20599,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5750,
-								5750
+								14783,
+								14783
 							]
 						],
 						"settings":
@@ -676,7 +698,69 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2604.0,
+						"translation.y": 7145.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "focus.html",
+					"settings":
+					{
+						"buffer_size": 10463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								345,
+								345
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "union.html",
+					"settings":
+					{
+						"buffer_size": 3689,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								764,
+								764
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 862.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -688,19 +772,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "static/assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 17093,
+						"buffer_size": 17360,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2633,
-								2633
+								5326,
+								5326
 							]
 						],
 						"settings":
@@ -712,25 +796,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2852.0,
+						"translation.y": 6133.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "static/assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 18700,
+						"buffer_size": 18968,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2312,
-								2312
+								1190,
+								1190
 							]
 						],
 						"settings":
@@ -741,38 +825,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "static/assets/css/form.css",
-					"settings":
-					{
-						"buffer_size": 37221,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 420.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -808,7 +861,7 @@
 		"cols":
 		[
 			0.0,
-			0.696150416988,
+			0.539049032658,
 			1.0
 		],
 		"rows":
@@ -851,6 +904,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 182.0,
+	"side_bar_width": 143.0,
 	"status_bar_visible": true
 }
