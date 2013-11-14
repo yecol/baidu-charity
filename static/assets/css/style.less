@@ -269,6 +269,7 @@ body {
 			height: 434px;
 			overflow: hidden;
 			img{
+				width: 630px;
 				border: 0px;
 				border-top-left-radius: 5px;
 				border-bottom-left-radius: 5px;
@@ -458,7 +459,7 @@ body {
 	.title1{
 		background: url("../img/quto2.png") 190px 0 no-repeat;
 		a.seeall{
-			background: url("../img/next.png") 110px -2px no-repeat;
+			background: url("../img/next2.png") 110px 0px no-repeat;
 			font-size: 22px;
 			font-weight: normal;
 			color: white;
@@ -481,20 +482,33 @@ body {
 			position: relative;
 			list-style: none;
 			li,.face{
+				background-color: white;
 				display: list-item;
 				position: absolute;
-				background-color: #333;
+				overflow: hidden;
 				&.face2{
 					height: 268px;
-					width: 268px;		
+					width: 268px;
+					img{
+						height: 268px;
+						width: 268px;
+					}		
 				}
 				&.face1{
 					height: 128px;
 					width: 128px;
+					img{
+						width: 128px;
+						height: 128px;
+					}
 				}
 				&.facew{
 					height: 128px;
 					width: 268px;
+					img{
+						width: 268px;
+						height: 128px;
+					}
 				}
 				&#f1{
 					left: 0;
@@ -537,6 +551,9 @@ body {
 				&#f9{
 					left: 0;
 					top: @l+@p;
+					img{
+						border-bottom-left-radius: 5px;
+					}
 				}
 				&#f10{
 					left: @l+@p;
@@ -557,13 +574,13 @@ body {
 				&#f14{
 					left: @l*2+@p*3+@s;
 					top: @l+@s+@p*2;
+					img{
+						border-bottom-right-radius: 5px;
+					}
 				}
 				&#f15{
 					left: 0;
 					top: @l*2+@p*2;
-					img{
-						border-bottom-left-radius: 5px;
-					}
 				}
 				&#f16{
 					left: @s+@p;
@@ -580,9 +597,6 @@ body {
 				&#f19{
 					left: @s*3+@p*4+@l;
 					top: @l*2+@p*2;
-					img{
-						border-bottom-right-radius: 5px;
-					}
 				}
 			}
 		}
@@ -785,6 +799,7 @@ body {
 				overflow: hidden;
 				img{
 					border: 0px;
+					width: 628px;
 					border-top-left-radius: 5px;
 					border-bottom-left-radius: 5px;
 				}
@@ -879,6 +894,11 @@ body {
 						width: 90px;
 						float: left;
 						margin-right: 10px;
+						overflow: hidden;
+						img{
+							width: 90px;
+							height: 90px;
+						}
 						p{
 							text-align: center;
 							margin-top: 55px;
@@ -952,6 +972,7 @@ body {
 				width: 274px;
 				padding: 20px;
 				float: left;
+				overflow: hidden;
 				.title{
 					font-size: 18px;
 					font-weight: bold;
@@ -965,6 +986,7 @@ body {
 					font-size: 12px;
 				}
 				img{
+					width: 274px;
 					margin-bottom: 20px;
 				}
 			}
@@ -1045,4 +1067,13 @@ body {
 			}
 		}
 	}
+}
+
+#preload-1,#preload-2,#preload-w{
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
 }

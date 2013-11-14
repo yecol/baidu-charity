@@ -68,7 +68,7 @@
                 </div>
                 <div class="title2">
                     <div class="t2l">
-                        <p>百度健康公益联盟是全球最大的医疗公益专业平台</p>
+                        <p><strong>百度健康公益联盟是全球最大的医疗公益专业平台</strong></p>
                         <p><span class="cc1">参与的医疗结构最多：</span>国内上万家医疗机构</p>
                         <p><span class="cc2">投入资源最多：</span>十年内投入50亿医疗资源</p>
                         <p><span class="cc3">直接覆盖范围最广：</span>参与的医疗机构覆盖上千个县市</p>
@@ -159,23 +159,23 @@
             <div class="face-frame">
                 <ul>
                     <!-- line1 -->
-                    <li class="face2" id="f1"></li>
+                    <li class="face2" id="f1"><img src="/static/img/face-1.jpg"></li>
                     <li class="face1" id="f2"><img src="/static/img/face-1.jpg"></img></li>
                     <li class="face1" id="f3"><img src="/static/img/face-1.jpg"></img></li>
                     <li class="face1" id="f4"><img src="/static/img/face-1.jpg"></img></li>
-                    <li class="facew" id="f5"></li>
+                    <li class="facew" id="f5"><img src="/static/img/face-1.jpg"></li>
                     <!-- line2 -->
                     <li class="face1" id="f6"><img src="/static/img/face-1.jpg"></img></li>
-                    <li class="face2" id="f7"></li>
-                    <li class="facew" id="f8"></li>
+                    <li class="face2" id="f7"><img src="/static/img/face-1.jpg"></li>
+                    <li class="facew" id="f8"><img src="/static/img/face-1.jpg"></li>
                     <!-- line3 -->
-                    <li class="face2" id="f9"></li>
-                    <li class="face1" id="f10"></li>
-                    <li class="facew" id="f11"></li>
+                    <li class="face2" id="f9"><img src="/static/img/face-1.jpg"></li>
+                    <li class="face1" id="f10"><img src="/static/img/face-1.jpg"></li>
+                    <li class="facew" id="f11"><img src="/static/img/face-1.jpg"></li>
                     <!-- line4 -->
                     <li class="face1" id="f12"><img src="/static/img/face-1.jpg"></img></li>
-                    <li class="facew" id="f13"></li>
-                    <li class="facew" id="f14"></li>
+                    <li class="facew" id="f13"><img src="/static/img/face-1.jpg"></li>
+                    <li class="facew" id="f14"><img src="/static/img/face-1.jpg"></li>
                 </ul>
                 
             </div>
@@ -187,6 +187,35 @@
             <p>©2013 Baidu <a href="http://www.baidu.com/duty/">使用百度必读</a> 国家药监局：（京）-经营性-2012-0009</p>
         </div>
 
+
+        <!-- TODO 加入在此加入所有轮换图片-->
+        <div id="preload-1">
+            <!-- 加入1*1 -->
+            <img src="/static/img/uimg_1.png"></img>
+            <img src="/static/img/uimg_2.png"></img>
+            <img src="/static/img/uimg_3.png"></img>
+            <img src="/static/img/uimg_4.png"></img>
+        </div>
+
+        <div id="preload-2">
+            <!-- 加入2*2 -->
+            <img src="/static/img/uimg_1.png"></img>
+            <img src="/static/img/uimg_2.png"></img>
+            <img src="/static/img/uimg_3.png"></img>
+            <img src="/static/img/uimg_4.png"></img>
+            <img src="/static/img/uimg_5.png"></img>
+            <img src="/static/img/uimg_6.png"></img>
+            <img src="/static/img/uimg_7.png"></img>
+        </div>
+
+        <div id="preload-w">
+            <!-- 加入1*2 -->
+            <img src="/static/img/w_1.png"></img>
+            <img src="/static/img/w_2.png"></img>
+            <img src="/static/img/w_3.png"></img>
+            <img src="/static/img/w_4.png"></img>
+            <img src="/static/img/w_5.png"></img>
+        </div>
 
 
         <!-- Modal -->
@@ -208,7 +237,7 @@
             </div>
         <label for="tel" class="label-2"><span class="cred">*</span>电话:</label>
             <div class="col-xs-4">
-                <input type="number" id="tel" class="form-control" name="tel" data-validate="telnumber">
+                <input type="text" id="tel" class="form-control" name="tel" data-validate="telnumber">
                 <div class="errorHint"></div>
             </div>
     </div>
@@ -222,16 +251,14 @@
                 <div class="errorHint"></div>
             </div>
             <div class="col-xs-3">
-                <select class="form-control" id="cityjs" name="city" type="text" data-validate="require-select-valid-option">
+                <select class="form-control" id="cityjs" name="city" type="text">
                   <option value='-1'>请选择</option>
                 </select>
-                <div class="errorHint"></div>
             </div>
             <div class="col-xs-3">
-                <select class="form-control" id="cotyjs" name="country" type="text" data-validate="require-select-valid-option">
+                <select class="form-control" id="cotyjs" name="country" type="text">
                   <option value='-1'>请选择</option>
                 </select>
-                <div class="errorHint"></div>
             </div>
     </div>
 
@@ -279,14 +306,20 @@
         <script src="/static/assets/js/bootstrap.min.js"></script>
 
         <!-- 输入校验 -->
-        <script src="/static/js/system/system.js"></script>
-        <script src="/static/js/system/validate.js"></script>
+        <script src="/static/backbone/backbone-1.0.0.min.js"></script>
+        <script src="/static/js/system.js"></script>
+        <script src="/static/js/validate.js"></script>
         <!-- 输入校验 -->
 
         <script>
         $fposito = 0;
         $temph = 0;
         $pt = 0;
+
+        $findex1 = 0;
+        $findex2 = 0;
+        $findexw = 0;
+        $pswIndex = 1;
         $(document).ready(function() {
             /* resize section */
             $vsbheight = $(window).height();
@@ -495,6 +528,9 @@
             }
             $('.fixer').css('padding-left',($('#fmc').offset().left+475)); 
         });
+
+        var imageTimer = null;
+        var firstTime = 0;
         $(window).scroll(function(){
             var h_num=$(window).scrollTop();
             
@@ -503,16 +539,16 @@
                 $num=parseInt(h_num-($("#focus").offset().top)-$pt+30,10)+parseInt($temph, 10);
                 $("#focus .container").css("background-position","70px "+$num +"px");
             }else{
-		$pt = ($("#focus").height()-494)/2
+                $pt = ($("#focus").height()-494)/2
                 $("#focus .container").css({"padding-top":$pt,"padding-bottom":$pt,"background-position":"70px "+parseInt($pt+10,0)+"px"});
-	    }
+            }
 
             if(h_num>=$("#union").offset().top+80-60){
                 $num=parseInt(h_num-($("#union").offset().top)+60,10);
                 $("#union .container").css("background-position","70px "+$num +"px");
             }else{
-		$("#union .container").css("background-position","70px 80px");
-	    }
+                $("#union .container").css("background-position","70px 80px");
+            }
 
             if(h_num>=$("#focus").offset().top){
                 $('.fixer').css('padding-left',($('#fmc').offset().left+475)); 
@@ -527,7 +563,50 @@
             }else{ 
                 $('.fixer').hide();
                 $('#nav').hide();    
-            } 
+            }
+
+            // switch images
+            if(h_num>=$("#union").offset().top-400&&firstTime==0){
+                firstTime = 1;
+                clearTimeout(imageTimer);
+                imageTimer = setInterval(function(){
+
+                    // var count = 0;
+                    // var interv = setInterval(function() {
+                    //     count++;
+                    //     if(count>6){
+                    //         clearInterval(interv);
+                    //     }
+                    var $swIndex = 1 + Math.floor(Math.random() * 14);
+                    var $curli = $(".face-frame ul li:nth-child("+$swIndex+")");
+                    var $swImageUrl = null;
+                    if ($curli.hasClass("face1")){
+                        //$swImageUrl = "/static/img/uimg_2.png";
+                        $findex1 = ($findex1)%$("#preload-1 img").size()+1;
+                        $swImageUrl = $("#preload-1 img:nth-child("+$findex1+")").attr('src');
+                    }
+                    if ($curli.hasClass("face2")){
+                        $findex2 = ($findex2)%$("#preload-2 img").size()+1;
+                        $swImageUrl = $("#preload-2 img:nth-child("+$findex2+")").attr('src');
+                        // console.log("findex2="+$findex2);
+                    }
+                    if ($curli.hasClass("facew")){
+                        $findexw = ($findexw)%$("#preload-w img").size()+1;
+                        $swImageUrl = $("#preload-w img:nth-child("+$findexw+")").attr('src');
+                        // console.log("findexw="+$findexw);
+                    }
+                    var swimage = $(".face-frame ul li:nth-child("+$swIndex+") img");
+                        swimage.fadeOut(400, function () {
+                            swimage.attr('src', $swImageUrl);
+                            swimage.fadeIn(400);
+                        });
+                    // },200);
+
+
+                } ,4000);
+            }else if(h_num<$("#union").offset().top-400){
+                firstTime = 0;
+            }
         });  
         </script>
 

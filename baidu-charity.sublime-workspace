@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"swi",
+				"swIndex"
+			],
+			[
+				"fi",
+				"findex1"
+			],
+			[
+				"prelo",
+				"preload-1"
+			],
+			[
+				"finde",
+				"findex1"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"clea",
+				"clearTimeout"
+			],
+			[
+				"fad",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"anima",
+				"animate	.animate() with callback"
+			],
+			[
+				"sw",
+				"swimage"
+			],
+			[
+				"cla",
+				"hasClass"
+			],
+			[
+				"fir",
+				"firstTime"
+			],
+			[
 				"inli",
 				"inline-block"
 			],
@@ -14,10 +62,6 @@
 			[
 				"font",
 				"font-weight"
-			],
-			[
-				"back",
-				"background"
 			],
 			[
 				"titl",
@@ -224,10 +268,6 @@
 				"background-position"
 			],
 			[
-				"anima",
-				"animate	animate"
-			],
-			[
 				"y-g",
 				"y-green-2"
 			],
@@ -319,7 +359,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 22255,
+				"buffer_size": 25770,
 				"line_ending": "Windows"
 			}
 		},
@@ -343,7 +383,7 @@
 			"file": "static/assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 17860,
+				"buffer_size": 18354,
 				"line_ending": "Windows"
 			}
 		},
@@ -351,7 +391,7 @@
 			"file": "static/assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 19310,
+				"buffer_size": 19885,
 				"line_ending": "Unix"
 			}
 		}
@@ -580,6 +620,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".image",
+			"timer",
+			"ne'x't",
 			"tg",
 			"tag",
 			"f24",
@@ -679,15 +722,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 22255,
+						"buffer_size": 25770,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4663,
-								4663
+								9430,
+								9430
 							]
 						],
 						"settings":
@@ -700,7 +743,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3880.0,
+						"translation.y": 9846.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -770,7 +813,7 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -778,15 +821,15 @@
 					"file": "static/assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 17860,
+						"buffer_size": 18354,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7977,
-								7977
+								16530,
+								16530
 							]
 						],
 						"settings":
@@ -797,8 +840,8 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 15.0,
-						"translation.y": 7530.0,
+						"translation.x": 0.0,
+						"translation.y": 16319.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -808,15 +851,15 @@
 					"file": "static/assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 19310,
+						"buffer_size": 19885,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3185,
-								3186
+								1061,
+								982
 							]
 						],
 						"settings":
@@ -826,8 +869,8 @@
 							"synced": false,
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 72.0,
-						"translation.y": 2052.0,
+						"translation.x": 0.0,
+						"translation.y": 1668.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -863,7 +906,7 @@
 		"cols":
 		[
 			0.0,
-			0.347480463326,
+			0.337315484488,
 			1.0
 		],
 		"rows":
@@ -906,6 +949,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 137.0,
+	"side_bar_width": 163.0,
 	"status_bar_visible": true
 }
