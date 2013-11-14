@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"inli",
+				"inline-block"
+			],
+			[
 				"padding",
 				"padding-left"
 			],
@@ -26,10 +30,6 @@
 			[
 				"padd",
 				"padding-right"
-			],
-			[
-				"inli",
-				"inline"
 			],
 			[
 				"col",
@@ -319,7 +319,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 20599,
+				"buffer_size": 22255,
 				"line_ending": "Windows"
 			}
 		},
@@ -343,7 +343,7 @@
 			"file": "static/assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 17360,
+				"buffer_size": 17860,
 				"line_ending": "Windows"
 			}
 		},
@@ -351,7 +351,7 @@
 			"file": "static/assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 18968,
+				"buffer_size": 19310,
 				"line_ending": "Unix"
 			}
 		}
@@ -468,6 +468,7 @@
 	},
 	"file_history":
 	[
+		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/User/SFTP.errors.log",
 		"/D/workspace_git/rcbd/Index_V3.css",
 		"/D/workspace_git/baidu-charity/style.css",
 		"/D/workspace_git/baidu-charity/static/assets/css/form.css",
@@ -579,6 +580,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tg",
 			"tag",
 			"f24",
 			"quto1.png",
@@ -677,15 +679,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 20599,
+						"buffer_size": 22255,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14783,
-								14783
+								4663,
+								4663
 							]
 						],
 						"settings":
@@ -698,7 +700,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7145.0,
+						"translation.y": 3880.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -776,15 +778,15 @@
 					"file": "static/assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 17360,
+						"buffer_size": 17860,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5326,
-								5326
+								7977,
+								7977
 							]
 						],
 						"settings":
@@ -795,8 +797,8 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 6133.0,
+						"translation.x": 15.0,
+						"translation.y": 7530.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -806,15 +808,15 @@
 					"file": "static/assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 18968,
+						"buffer_size": 19310,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1190,
-								1190
+								3185,
+								3186
 							]
 						],
 						"settings":
@@ -824,8 +826,8 @@
 							"synced": false,
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 420.0,
+						"translation.x": 72.0,
+						"translation.y": 2052.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -861,7 +863,7 @@
 		"cols":
 		[
 			0.0,
-			0.539049032658,
+			0.347480463326,
 			1.0
 		],
 		"rows":
@@ -904,6 +906,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 143.0,
+	"side_bar_width": 137.0,
 	"status_bar_visible": true
 }

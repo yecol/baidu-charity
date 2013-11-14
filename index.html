@@ -104,14 +104,26 @@
                 <div class="status">
                     <div class="tag">
                         <a href="/focus/" class="taga">
-                        <div class="text">
-                        <p>当前进展：<span class="f24">救助中</span></p>
+                        <!-- TODO:填写所有状态，有几个填写几个。tgtext2l为两行文字,tgtext1l为一行文字 -->
+                        <div class="tgtext tgtext2l">
+                        <p><span class="p60">当前进展：</span><span class="f24">状态1</span></p>
+                        <p><span class="p60">已救助：</span><span class="f24">1111人</span></p>
+                        </div>
+                        <div class="tgtext tgtext2l">
+                        <p><span class="p60">当前进展：</span><span class="f24">状态2</span></p>
+                        <p><span class="p60">已救助：</span><span class="f24">2222人</span></p>
+                        </div>
+                        <div class="tgtext tgtext1l">
+                        <p><span class="p60">当前进展：</span><span class="f24">救助中</span></p>
+                        </div>
+                        <div class="tgtext tgtext1l">
+                        <p><span class="p60">当前进展：</span><span class="f24">救助中</span></p>
                         </div>
                         <div class="next"></div>
                         </a>
                     </div>
                     <!-- TODO:数字序号写在这里，如这里表示激活第3个 -->
-                    <div id="cura" class="hide">4</div>
+                    <div id="cura" class="hide">2</div>
 
                     <div class="tail">
                     </div>
@@ -318,6 +330,14 @@
                     }
                     k++;
                 });
+                $(".tgtext").each(function(k){
+                    if(k!=$cura){
+                        $(this).hide();
+                    }else{
+                        $(this).show();
+                    }
+                    k++;
+                });
                 $(".tail").css("background-position",$taila[$cura]+"px 0px");
                 if($cura==0){
                     $(".stage1").addClass('active');
@@ -344,6 +364,14 @@
                         }
                         k++;
                     });
+                    $(".tgtext").each(function(k){
+                        if(k!=$index_2){
+                            $(this).hide();
+                        }else{
+                            $(this).show();
+                        }
+                        k++;
+                    });
                 // }, 1000);
             }
             , function() {
@@ -358,6 +386,14 @@
                             $(this).hide();
                         } else {
                             $(this).show();    
+                        }
+                        k++;
+                    });
+                    $(".tgtext").each(function(k){
+                        if(k!=$cura){
+                            $(this).hide();
+                        }else{
+                            $(this).show();
                         }
                         k++;
                     });
