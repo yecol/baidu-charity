@@ -96,10 +96,10 @@
             <div class="frame">
                 <div class="image"><a href="/focus/"><img src="/static/img/pic_1.jpg"></a></div>
                 <div class="content">
-                    <h3><a href="/focus/">北京市老年疾病救助公益活动</a></h3>
-                    <p>主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述描述主题救助活动描述主题救助活动描述主题救</p>
-                    <p class="mr20"><span class="s">参与救助机构：</span>中国红十字会，中国红十字会，中国红十字会，中国红十字会，中国红十字会...
-                    <p class="mr20"><span class="s">救助医院：</span>回龙观医院</p>
+                    <h3 id="cutoff1"><a href="/focus/">北京市老年疾病救助公益活动北京市老年疾病救助公益活动北京市老年疾病救助公益活动</a></h3>
+                    <p id="cutoff2">主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述描述主题救助活动描述主题救助活动描述主题救主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述描述主题救助活动描述主题救助活动描述主题救主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述描述主题救助活动描述主题救助活动描述主题救主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述描述主题救助活动描述主题救助活动描述主题救主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述主题救助活动描述描述主题救助活动描述主题救助活动描述主题救</p>
+                    <p class="mr20" id="cutoff3"><span class="s">参与救助机构：</span>中国红十字会，中国红十字会，中国红十字会，中国红十字会，中国红十字会,中国红十字会，中国红十字会，中国红十字会,中国红十字会，中国红十字会，中国红十字会,中国红十字会，中国红十字会，中国红十字会
+                    <p class="mr20"><span class="s">参与医院：</span>共&nbsp;<span class="cc5">23</span>&nbsp;家民营医院</p>
                 </div>
                 <div class="status">
                     <div class="tag">
@@ -110,11 +110,11 @@
                         <p><span class="p60">已救助：</span><span class="f24">1111人</span></p>
                         </div>
                         <div class="tgtext tgtext2l">
-                        <p><span class="p60">当前进展：</span><span class="f24">状态2</span></p>
-                        <p><span class="p60">已救助：</span><span class="f24">2222人</span></p>
+                        <p><span class="p60">当前进展：</span><span class="f24">状态状态状态状态状态状态状态状态状态状态</span></p>
+                        <p><span class="p60">已救助：</span><span class="f24">状态状态状态状态状态状态人</span></p>
                         </div>
                         <div class="tgtext tgtext1l">
-                        <p><span class="p60">当前进展：</span><span class="f24">救助中</span></p>
+                        <p><span class="p60">当前进展：</span><span class="f24">救助中救助中救助中救助中救助中救助中</span></p>
                         </div>
                         <div class="tgtext tgtext1l">
                         <p><span class="p60">当前进展：</span><span class="f24">救助中</span></p>
@@ -123,7 +123,7 @@
                         </a>
                     </div>
                     <!-- TODO:数字序号写在这里，如这里表示激活第3个 -->
-                    <div id="cura" class="hide">2</div>
+                    <div id="cura" class="hide">3</div>
 
                     <div class="tail">
                     </div>
@@ -139,7 +139,7 @@
                     </div>
                     <!-- TODO:填写状态，有几个写几个 -->
                     <div class="segtext">
-                        <div class="seg-t" id="st1"><p>开始</p><p>2013-10-11</p></div>
+                        <div class="seg-t" id="st1"><p>好了么打发打发打算费大幅地方倒萨</p><p>2013-10-11</p></div>
                         <div class="seg-t" id="st2"><p>开始</p><p>2013-10-11</p></div>
                         <div class="seg-t" id="st3"><p>开始</p><p>2013-10-11</p></div>
                         <div class="seg-t" id="st4"><p>开始</p><p>2013-10-11</p></div>
@@ -320,7 +320,33 @@
         $findex2 = 0;
         $findexw = 0;
         $pswIndex = 1;
+
+        function subText(selectString,limit,ellipsis){
+            if ($(selectString).html().length>limit){
+                var txt = $(selectString).html().substr(0,limit);
+                $(selectString).html(ellipsis?txt+"…":txt);                
+            }
+        }
+
+        function multiSubText(selectString,limit,ellipsis){
+            $(selectString).each(function(){
+                if ($(this).html().length>limit){
+                    console.log("hello");
+                    var txt = $(this).html().substr(0,limit);
+                    $(this).html(ellipsis?txt+"…":txt);               
+                }
+            });
+        }
+
         $(document).ready(function() {
+
+            /* 截断 */
+            subText("#cutoff1 a",12,true);//焦点救助标题
+            subText("#cutoff2",90,true);//焦点救助内容
+            subText("#cutoff3",70,true);//焦点救助机构
+            multiSubText(".tgtext2l .f24",7,false);//状态蓝条
+            multiSubText(".tgtext1l .f24",4,false);//状态蓝条
+            multiSubText(".seg-t p:nth-child(1)",6,false);//状态下部分
             /* resize section */
             $vsbheight = $(window).height();
             if($vsbheight>$("#focus").height()){

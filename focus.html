@@ -29,18 +29,22 @@
         </div>
 
         <div class="section-focus" id="page-focus">
+            <a id="floatreturn" href="#"></a>
             <div class="fcontainer">
                 <div class="frame">
                     <div class="image"><img src="/static/img/pic_2.jpg"></div>
                     <div class="content">
                         <div class="up-content">
-                        <h3>北京市老年疾病救助公益活动</h3>
+                        <h3 id="cutoff1">北京市老年疾病救助公益活动北京市老年疾病救助公益活动</h3>
                         <p><span class="cc4">活动地区：</span>北京市</p>
                         <p><span class="cc4">活动时间：</span>2013.10.1至2014.02.01</p>
                         <p><span class="cc4">当前进展：</span><span class="bb1">救助名单征集中</span></p>
-                        <p><span class="cc4">参与医院：</span>共<span class="cc5">23</span>家民营医院</p>
-                        <p class="ib"><span class="cc4">合作机构：</span></p><p class="ib2">放图</p>
-                        <p class="ib"><span class="cc4">资源投入：</span><p class="ib2">合作机构家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院</p>
+                        <p><span class="cc4">参与医院：</span>共&nbsp;<span class="cc5">23</span>&nbsp;家民营医院<a id="ally" href="#"></a></p>
+                        <p class="ib"><span class="cc4">合作机构：</span></p><p class="ib2">
+                        <img src="/static/img/70_70.jpg"></img>
+                        <img src="/static/img/70_140.png">
+                        </p>
+                        <p class="ib"><span class="cc4">资源投入：</span><p class="ib2" id="cutoff2">合作机构家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院家民营医院</p>
                         </div>
                         <div class="down-content">
                             <p>投入救助资金总计：<span class="c6">30万元</span></p>
@@ -177,7 +181,31 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
         <script src="/static/assets/js/jquery.jcarousel.min.js"></script>
         <script src="/static/assets/fancybox/jquery.fancybox.pack.js"></script>
         <script>
+        function subText(selectString,limit,ellipsis){
+            if ($(selectString).html().length>limit){
+                var txt = $(selectString).html().substr(0,limit);
+                $(selectString).html(ellipsis?txt+"…":txt);                
+            }
+        }
+
+        function multiSubText(selectString,limit,ellipsis){
+            $(selectString).each(function(){
+                if ($(this).html().length>limit){
+                    var txt = $(this).html().substr(0,limit);
+                    $(this).html(ellipsis?txt+"…":txt);               
+                }
+            });
+        }
+
+
         $(document).ready(function() {
+            subText("#cutoff1",13,true);//焦点救助标题
+            subText("#cutoff2",190,true);//资源投入内容
+            $('#floatreturn').click(function(e) {
+                $('html,body').animate({scrollTop: 0}, 500);
+                e.preventDefault();
+            });
+
             $('#carousel').jcarousel();
             $("a.fancy").fancybox({
                 beforeLoad: function() {
@@ -187,6 +215,17 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
                     type:"over"
                 }
             });
+        });
+        $(window).scroll(function(){
+            var h_num=$(window).scrollTop();
+            if(h_num>=600){
+                $('#floatreturn').css({
+                    top: $(window).height()-200,
+                    left: $(".fcontainer").offset().left+880
+                    }).fadeIn(400);
+            }else{ 
+                $('#floatreturn').fadeOut(400);
+            }
         });
         </script>
 

@@ -42,10 +42,11 @@ body .tip{display:none;width:100%;height:138px;background:url("../img/tip.png") 
 #focus .frame .content{background-color:#fff;display:block;float:left;width:294px;height:228px;overflow:hidden;padding:20px}#focus .frame .content h3{font-size:20px;line-height:20px;margin-bottom:20px;font-weight:bold;color:#1f82e1}
 #focus .frame .content p{color:#6c6c6c;font-size:12px;line-height:20px}#focus .frame .content p.mr20{margin-top:20px}
 #focus .frame .content p .s{font-weight:bold}
-#focus .frame .status{background-color:#fff;display:block;float:left;width:294px;padding:10px 20px 0 20px}#focus .frame .status .tag{width:100%;height:60px;background-color:#1f82e1;padding-top:12px;color:#fff;border-radius:3px}#focus .frame .status .tag a.taga{background-color:clear}
-#focus .frame .status .tag .tgtext{float:left;width:250px}#focus .frame .status .tag .tgtext .p60{width:80px;display:inline-block}
+#focus .frame .content p .cc5{color:#f00}
+#focus .frame .status{background-color:#fff;display:block;float:left;width:294px;padding:10px 20px 0 20px}#focus .frame .status .tag{width:100%;height:62px;background-color:#1f82e1;padding-top:10px;color:#fff;border-radius:3px}#focus .frame .status .tag a.taga{background-color:clear}
+#focus .frame .status .tag .tgtext{float:left;width:250px}#focus .frame .status .tag .tgtext .p60{width:80px;display:inline-block;overflow:hidden}
 #focus .frame .status .tag .tgtext .p60{*display:inline}
-#focus .frame .status .tag .tgtext2l p{font-size:14px;margin:0 0 8px 25px;line-height:20px;color:#fff}#focus .frame .status .tag .tgtext2l p .f24{font-size:20px;font-weight:bold}
+#focus .frame .status .tag .tgtext2l p{font-size:14px;margin:0 0 8px 25px;line-height:20px;color:#fff;overflow:hidden}#focus .frame .status .tag .tgtext2l p .f24{font-size:20px;font-weight:bold}
 #focus .frame .status .tag .tgtext1l p{font-size:14px;margin:15px 0 8px 25px;line-height:20px;color:#fff}#focus .frame .status .tag .tgtext1l p .f24{font-size:30px;font-weight:bold}
 #focus .frame .status .tag .next{background:url("../img/next.png") 0 8px no-repeat;width:38px;height:50px;float:left}#focus .frame .status .tag .next a{width:25px;height:48px;display:block;cursor:pointer}
 #focus .frame .status .tail{width:100%;height:6px;margin-bottom:5px;background:url("../img/blue-tail.png") 85px 0 no-repeat}
@@ -127,10 +128,12 @@ body .tip{display:none;width:100%;height:138px;background:url("../img/tip.png") 
 #page-focus .fcontainer .frame .content p .cc5{color:#f00;font-weight:bold}
 #page-focus .fcontainer .frame .content p .bb1{color:#1f82e1;font-size:18px;font-weight:bold}
 #page-focus .fcontainer .frame .content p.ib{vertical-align:top;display:inline-block}
-#page-focus .fcontainer .frame .content p.ib2{width:220px;display:inline-block}
+#page-focus .fcontainer .frame .content p.ib2{width:220px;display:inline-block}#page-focus .fcontainer .frame .content p.ib2 img{margin-right:2px}
 #page-focus .fcontainer .frame .content p.ib2{*display:inline}
 #page-focus .fcontainer .frame .content p.mr20{margin-top:20px}
 #page-focus .fcontainer .frame .content p .s{font-weight:bold}
+#page-focus .fcontainer .frame .content p #ally{width:74px;height:22px;display:inline-block;position:relative;top:6px;left:10px;background:url("../img/seeall.png") 0 0 no-repeat}#page-focus .fcontainer .frame .content p #ally:hover{background:url("../img/seeall-hover.png") 0 0 no-repeat}
+#page-focus .fcontainer .frame .content p #ally{*display:inline}
 #page-focus .fcontainer .frame-status{background:#fff;width:962px;height:200px;border-radius:5px;border:1px solid #ddd;margin-bottom:40px}#page-focus .fcontainer .frame-status #carousel .c-li{display:inline-block;width:320px;height:160px}#page-focus .fcontainer .frame-status #carousel .c-li:before,#page-focus .fcontainer .frame-status #carousel .c-li:after{content:" ";display:table}
 #page-focus .fcontainer .frame-status #carousel .c-li:after{clear:both}
 #page-focus .fcontainer .frame-status #carousel .c-li p.unactive{padding-top:60px;padding-left:10px;color:#ccc;font-size:18px;font-weight:bold}
@@ -154,6 +157,7 @@ body .tip{display:none;width:100%;height:138px;background:url("../img/tip.png") 
 #page-focus .fcontainer .frame-footer ul{margin-bottom:40px;padding-left:20px}#page-focus .fcontainer .frame-footer ul:before,#page-focus .fcontainer .frame-footer ul:after{content:" ";display:table}
 #page-focus .fcontainer .frame-footer ul:after{clear:both}
 #page-focus .fcontainer .frame-footer li{width:294px;margin-left:20px;list-style-position:inside;float:left;list-style:disc;height:20px;font-size:14px;color:#919191;margin-bottom:6px}
+#page-focus #floatreturn{width:60px;height:60px;background:url("../img/return.png") 0 0 no-repeat;display:block;position:fixed;float:left;top:999px;left:999px}#page-focus #floatreturn:hover{background:url("../img/return-hover.png") 0 0 no-repeat}
 #page-union{background-color:#f2f2f2}#page-union .ucontainer{width:962px;height:1250px;padding-top:36px;margin:0 auto 0 auto}#page-union .ucontainer .title{background:url("../img/union-title.png") 0 0 no-repeat;font-size:30px;font-weight:bold;color:#e8534f;text-align:center;margin-bottom:16px}
 #page-union .ucontainer .paper{width:826px;height:1030px;padding:60px 68px;background:url("../img/paper-bg.png") 0 0 no-repeat}#page-union .ucontainer .paper p{line-height:170%}#page-union .ucontainer .paper p.p1{color:#3b3b3b;font-size:16px;font-weight:bold;margin-bottom:8px}
 #page-union .ucontainer .paper p.p2{color:#3b3b3b;font-weight:bold;font-size:14px;margin-bottom:8px}

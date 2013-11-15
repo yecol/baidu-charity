@@ -300,6 +300,9 @@ body {
 				.s{
 					font-weight: bold;
 				}
+				.cc5{
+					color: red;
+				}
 			}
 		}
 		.status{
@@ -310,9 +313,9 @@ body {
 			padding: 10px 20px 0 20px;
 			.tag{
 				width: 100%;
-				height: 60px;
+				height: 62px;
 				background-color: @linkblue;
-				padding-top: 12px;
+				padding-top: 10px;
 				color:white;
 				border-radius: 3px;
 				a.taga{
@@ -324,6 +327,7 @@ body {
 					.p60{
 						width: 80px;
 						display: inline-block;
+						overflow: hidden;
 					}
 					.p60{
 						*display: inline;
@@ -335,6 +339,7 @@ body {
                 	    margin: 0 0 8px 25px;
                 	    line-height: 20px;
                 	    color: white;
+                	    overflow: hidden;
                 	    .f24{
                 	            font-size:20px;
                 	            font-weight: bold;;
@@ -857,6 +862,9 @@ body {
 					&.ib2{
 						width: 220px;
 						display: inline-block;
+						img{
+							margin-right: 2px;
+						}
 					}
 					&.ib2{
 						*display: inline;
@@ -866,6 +874,21 @@ body {
 					}
 					.s{
 						font-weight: bold;
+					}
+					#ally{
+						width: 74px;
+						height: 22px;
+						display: inline-block;
+						position: relative;
+						top: 6px;
+						left: 10px;
+						background: url("../img/seeall.png") 0 0 no-repeat;
+						&:hover{
+							background: url("../img/seeall-hover.png") 0 0 no-repeat;
+						}
+					}
+					#ally{
+						*display: inline;
 					}
 				}
 			}
@@ -1019,6 +1042,19 @@ body {
 				color:#919191;
 				margin-bottom: 6px;
 			}
+		}
+	}
+	#floatreturn{
+		width: 60px;
+		height: 60px;
+		background: url("../img/return.png") 0 0 no-repeat;
+		display: block;
+		position: fixed;
+		float: left;
+		top: 999px;
+		left: 999px;
+		&:hover{
+			background: url("../img/return-hover.png") 0 0 no-repeat;
 		}
 	}
 }
