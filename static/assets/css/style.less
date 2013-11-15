@@ -98,6 +98,7 @@ body {
 	background-color: #999;
 
 	.title1{
+		padding: 0;
 		background: url("../img/logo.png") center 0 no-repeat;
 		width: 400px;
 		height: 50px;
@@ -105,12 +106,23 @@ body {
 		margin: 0 auto 60px auto;
 		color:@fontwhite;
 		h1{
+			width: 400px;
+			margin: 0 auto 20px auto;
+			text-align: center;
 			display: block;
 			font-size: 48px;
 			font-weight: bold;
 			line-height: 50px;
-			margin-bottom: 20px;
 			text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+		}
+		h3{
+			width: 400px;
+			text-align: center;
+			display: block;
+			line-height: 20px;
+			margin: 0 auto 30px auto;
+			font-size: 16px;
+			color: #FFD143;
 		}
 		h5{
 			font-size: 16px;
@@ -167,13 +179,16 @@ body {
 		}
 	}
 	.detail{
+		text-align: center;
 		width: 970px;
 		margin: 0 160px 0 160px;
-		color: white;
-		font-size: 16px;
+		color: #FFD143;
+		font-size: 24px;
+		font-weight: bold;
 		line-height: 26px;
 		hr{
-			margin-top: 5px;
+			margin-top: 10px;
+			margin-bottom: 24px;
 			border-top:1px solid #cccccc;;
 		}
 		.f24{
@@ -223,14 +238,16 @@ body {
 		}
 	}
 	.primary{
-		height: 200px;
-		padding-top: 50px;
+		height: 122px;
 		a#pr-btn{
 			display: block;
 			background: url("../img/btn.png") 0 0 no-repeat;
-			width: 250px;
-			height: 70px;
+			width: 194px;
+			height: 76px;
 			margin: 0 auto 0 auto;
+			&:hover{
+				background: url("../img/btn-hover.png") 0 0 no-repeat;
+			}
 		}
 	}
 }

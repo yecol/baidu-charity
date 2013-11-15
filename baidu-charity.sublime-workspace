@@ -4,72 +4,44 @@
 		"selected_items":
 		[
 			[
-				"swi",
-				"swIndex"
-			],
-			[
-				"fi",
-				"findex1"
-			],
-			[
-				"prelo",
-				"preload-1"
-			],
-			[
-				"finde",
-				"findex1"
-			],
-			[
-				"css",
-				"css	.css() - single"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"clea",
-				"clearTimeout"
-			],
-			[
-				"fad",
-				"fadeOut	.fadeOut()"
-			],
-			[
-				"anima",
-				"animate	.animate() with callback"
-			],
-			[
-				"sw",
-				"swimage"
-			],
-			[
-				"cla",
-				"hasClass"
-			],
-			[
-				"fir",
-				"firstTime"
-			],
-			[
-				"inli",
-				"inline-block"
-			],
-			[
 				"padding",
-				"padding-left"
+				"padding"
+			],
+			[
+				"mar",
+				"margin"
 			],
 			[
 				"font",
 				"font-weight"
 			],
 			[
-				"titl",
-				"title"
+				"fade",
+				"fadeIn	.fadeIn()"
 			],
 			[
-				"mar",
-				"margin-bottom"
+				"inli",
+				"inline"
+			],
+			[
+				"sub",
+				"subText"
+			],
+			[
+				"selec",
+				"selectString"
+			],
+			[
+				"sele",
+				"selectString"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"titl",
+				"title"
 			],
 			[
 				"padd",
@@ -268,6 +240,10 @@
 				"background-position"
 			],
 			[
+				"anima",
+				"animate	animate"
+			],
+			[
 				"y-g",
 				"y-green-2"
 			],
@@ -359,23 +335,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 25770,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "focus.html",
-			"settings":
-			{
-				"buffer_size": 10463,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "union.html",
-			"settings":
-			{
-				"buffer_size": 3689,
+				"buffer_size": 26942,
 				"line_ending": "Windows"
 			}
 		},
@@ -383,7 +343,7 @@
 			"file": "static/assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 18354,
+				"buffer_size": 19434,
 				"line_ending": "Windows"
 			}
 		},
@@ -391,7 +351,7 @@
 			"file": "static/assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 19885,
+				"buffer_size": 20930,
 				"line_ending": "Unix"
 			}
 		}
@@ -508,7 +468,9 @@
 	},
 	"file_history":
 	[
-		"/Users/Yecol/Library/Application Support/Sublime Text 2/Packages/User/SFTP.errors.log",
+		"/D/workspace_git/baidu-charity/focus.html",
+		"/D/workspace_git/baidu-charity/union.html",
+		"/D/workspace_git/baidu-charity/index.html",
 		"/D/workspace_git/rcbd/Index_V3.css",
 		"/D/workspace_git/baidu-charity/style.css",
 		"/D/workspace_git/baidu-charity/static/assets/css/form.css",
@@ -516,13 +478,11 @@
 		"/D/workspace_git/baidu-charity/index1.html",
 		"/D/workspace_git/baidu-charity/static/assets/css/form1.css",
 		"/D/workspace_git/baidu-charity/sftp-config.json",
-		"/D/workspace_git/baidu-charity/index.html",
 		"/D/workspace_git/baidu-charity/static/assets/js/system/system.js",
 		"/D/workspace_git/baidu-charity/static/assets/js/system/validate.js",
 		"/D/workspace_git/baidu-charity/assets/css/style.less",
 		"/D/workspace_git/baidu-charity/assets/css/style.css",
 		"/D/workspace_git/baidu-charity/assets/css/form.css",
-		"/D/workspace_git/baidu-charity/union.html",
 		"/D/workspace_git/baidu-charity/country.json",
 		"/D/workspace_git/baidu-charity/city.json",
 		"/C/Users/Yecol/Documents/Tencent Files/148269281/FileRecv/js/system.js",
@@ -531,7 +491,6 @@
 		"/D/workspace_git/baidu-charity/assets/css/effect.css",
 		"/D/workspace_git/rcbd/BDA.html",
 		"/D/skydrive/GoodReader/spank/lust/荒村恶童.txt",
-		"/D/workspace_git/baidu-charity/focus.html",
 		"/C/Users/Yecol/Desktop/bootstrap.css",
 		"/D/workspace_git/baidu-charity/assets/css/bootstrap.css",
 		"/D/workspace_git/baidu-charity-1107/assets/css/style.css",
@@ -620,10 +579,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			".image",
-			"timer",
-			"ne'x't",
-			"tg",
+			"title1",
+			"&",
+			"TODO",
+			"&",
+			"scroll",
+			"cc4",
+			"23",
+			"&",
+			"each",
 			"tag",
 			"f24",
 			"quto1.png",
@@ -722,15 +686,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 25770,
+						"buffer_size": 26942,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9430,
-								9430
+								2557,
+								2557
 							]
 						],
 						"settings":
@@ -743,69 +707,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 9846.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "focus.html",
-					"settings":
-					{
-						"buffer_size": 10463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								345,
-								345
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "union.html",
-					"settings":
-					{
-						"buffer_size": 3689,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								764,
-								764
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 862.0,
+						"translation.y": 1145.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -813,23 +715,23 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "static/assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 18354,
+						"buffer_size": 19434,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16530,
-								16530
+								1556,
+								1556
 							]
 						],
 						"settings":
@@ -840,26 +742,26 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 16319.0,
+						"translation.x": 4.0,
+						"translation.y": 1613.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "static/assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 19885,
+						"buffer_size": 20930,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1061,
-								982
+								19516,
+								19516
 							]
 						],
 						"settings":
@@ -870,7 +772,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1668.0,
+						"translation.y": 2753.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -906,7 +808,7 @@
 		"cols":
 		[
 			0.0,
-			0.337315484488,
+			0.546605514861,
 			1.0
 		],
 		"rows":
@@ -949,6 +851,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 163.0,
+	"side_bar_width": 276.0,
 	"status_bar_visible": true
 }
