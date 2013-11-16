@@ -335,7 +335,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 26942,
+				"buffer_size": 25920,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "focus.html",
+			"settings":
+			{
+				"buffer_size": 8828,
 				"line_ending": "Windows"
 			}
 		},
@@ -343,7 +351,7 @@
 			"file": "static/assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 19434,
+				"buffer_size": 19465,
 				"line_ending": "Windows"
 			}
 		},
@@ -468,6 +476,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/sftp-config.json",
+		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/static/assets/css/form.css",
 		"/D/workspace_git/baidu-charity/focus.html",
 		"/D/workspace_git/baidu-charity/union.html",
 		"/D/workspace_git/baidu-charity/index.html",
@@ -579,6 +589,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"container",
 			"title1",
 			"&",
 			"TODO",
@@ -686,15 +697,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 26942,
+						"buffer_size": 25920,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2557,
-								2557
+								1241,
+								1241
 							]
 						],
 						"settings":
@@ -707,7 +718,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1145.0,
+						"translation.y": 100.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "focus.html",
+					"settings":
+					{
+						"buffer_size": 8828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1025,
+								1025
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -715,23 +757,23 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "static/assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 19434,
+						"buffer_size": 19465,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1556,
-								1556
+								681,
+								681
 							]
 						],
 						"settings":
@@ -742,14 +784,14 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 4.0,
-						"translation.y": 1613.0,
+						"translation.x": 0.0,
+						"translation.y": 480.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "static/assets/css/style.css",
 					"settings":
 					{
@@ -808,7 +850,7 @@
 		"cols":
 		[
 			0.0,
-			0.546605514861,
+			0.458406001479,
 			1.0
 		],
 		"rows":
