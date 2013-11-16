@@ -54,7 +54,7 @@
 
                 <div class="frame-status">
                 <ul id="carousel" class="jcarousel-skin-tango">
-                        <li class="c-li cli">
+                      <li class="c-li cli-1">
                             <div class="c-l">
                                 <img src="/static/assets/img/logo.png" />
                                 <p>2013-11-19</p>
@@ -64,19 +64,7 @@
                                 <p class="c-r-c">活动正式启动</p>
                             </div>
                         </li>
-
-                        <li class="c-li cli">
-                            <div class="c-l">
-                                <img src="/static/assets/img/logo.png" />
-                                <p>2013-11-19</p>
-                            </div>
-                            <div class="c-r">
-                                <p class="c-r-t">救助启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动</p>
-                                <p class="c-r-c">活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动活动正式启动</p>
-                            </div>
-                        </li>
-
-                        <li class="c-li cli-active">
+                      <!--  <li class="c-li cli-active">
                             <div class="c-l">
                                 <img src="/static/assets/img/logo.png" />
                                 <p>2013-11-19</p>
@@ -85,6 +73,10 @@
                                 <p class="c-r-t">救助启动</p>
                                 <p class="c-r-c">活动正式启动</p>
                             </div>
+                        </li>
+                    -->
+                        <li class="c-li cli-noactive">
+                            
                         </li>
                 </ul>
                 </div>
@@ -111,7 +103,7 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
 <!-- Baidu Button END -->
 
                         </div>
-                        <p>由百度健康公益联盟联合多家知名眼科类医疗机构共同发起。于2013年11月19日正式启动，计划救助1000个贫困的先天性白内障儿童，也是百度健康公益联盟的第一个主题救助项目。</p>
+                        <p>"瞳计划——贫困地区先天性白内障儿童救助行动"由百度健康公益联盟联合多家知名眼科类医疗机构共同发起。于2013年11月19日正式启动，计划救助1000个贫困的先天性白内障儿童，也是百度健康公益联盟的第一个主题救助项目。</p>
                         <p>儿童先天性白内障在我国的发生率为0.5%，也就是每200个孩子里就有一个患有先天性白内障，是儿童较为常见的疾病。白内障能导致婴幼儿失明或弱势，失明儿童中有22%-30%为白内障所致，其已成为儿童失明的第二大原因。</p>
                         <p>虽然目前白内障手术已经比较成熟，患病儿童通过手术可以重见光明，但对于儿童的治疗比成人更复杂、难度更高，特别是双眼完全性白内障的儿童，应在出生后1-2周内手术，最迟不可超过6个月，一旦错过治疗，会导致终生弱势甚至失明。而且，该疾病发病率高、分布地域广，贫困地区的患儿，往往因为医疗资源缺乏、无钱医治等问题耽误治疗，留下终生遗憾。</p>
                         <p>孩子是社会的未来，而眼睛是他们看世界的窗户，贫困不应成为孩子看见未来、看见光明的障碍。百度联合上万家医疗客户共同建立健康公益联盟，打造首个以互联网平台和专业医疗机构为主体的直接救助平台，同时也是全球最大的儿童医疗公益专业平台，“瞳计划”作为首个发起项目，将为需要救助的患儿提供专业、及时的救助服务。</p>
@@ -119,8 +111,6 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
                     </div>
                     <div class="pics">
                         <div class="title">先天性白内障相关图片</div>
-                        <p>白内障能导致婴幼儿失明或弱视</p>
-                        <a rel="group" class="fancy" href="/static/img/r_img1.jpg" alt="白内障能导致婴幼儿失明或弱视"><img src="/static/img/r_img1.jpg"></img></a>
                         <p>失明儿童中有22%～30%为白内障所致</p>
                         <a rel="group" class="fancy" href="/static/img/r_img2.jpg" alt="失明儿童中有22%～30%为白内障所致"><img src="/static/img/r_img2.jpg"></img></a>
                         <p>先天性白内障已成为儿童失明的第二位原因</p>
@@ -155,9 +145,9 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
 
 
         $(document).ready(function() {
-            subText("#cutoff1",13,true);//焦点救助标题
+            //subText("#cutoff1",13,true);//焦点救助标题
             subText("#cutoff2",190,true);//资源投入内容
-            multiSubText(".c-r-t",10,true);
+            multiSubText(".c-r-t",10,false);
             $('#floatreturn').click(function(e) {
                 $('html,body').animate({scrollTop: 0}, 500);
                 e.preventDefault();

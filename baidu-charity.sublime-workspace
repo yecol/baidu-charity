@@ -4,16 +4,20 @@
 		"selected_items":
 		[
 			[
-				"padding",
-				"padding"
-			],
-			[
 				"mar",
-				"margin"
+				"margin-bottom"
 			],
 			[
 				"font",
 				"font-weight"
+			],
+			[
+				"t2",
+				"t2l"
+			],
+			[
+				"padding",
+				"padding"
 			],
 			[
 				"fade",
@@ -335,15 +339,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 25920,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "focus.html",
-			"settings":
-			{
-				"buffer_size": 8828,
+				"buffer_size": 26246,
 				"line_ending": "Windows"
 			}
 		},
@@ -351,7 +347,7 @@
 			"file": "static/assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 19465,
+				"buffer_size": 19655,
 				"line_ending": "Windows"
 			}
 		},
@@ -359,7 +355,33 @@
 			"file": "static/assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 20930,
+				"buffer_size": 21439,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "--- C:\\Users\\LEIXUJUN\\Desktop\\yecol\\baidu-charity\\static\\assets\\css\\style1.css Sat Nov 16 19:11:44 2013\n+++ C:\\Users\\LEIXUJUN\\Desktop\\yecol\\baidu-charity\\static\\assets\\css\\style.css Sat Nov 16 12:05:58 2013\n@@ -13,19 +13,19 @@\n .section{display:block;}\n .container{padding-top:60px;}\n .mid-container{width:968px;margin:0 auto 0 auto;}\n-#cover{height:706px;background:#2c3438 url(\"../img/bg.jpg\") center center no-repeat;}#cover .title1{padding:0;background:url(\"../img/logo.png\") center 0 no-repeat;width:400px;height:50px;padding-top:160px;margin:0 auto 60px auto;color:#fafafa;}#cover .title1 h1{width:400px;margin:0 auto 20px auto;text-align:center;display:block;font-size:46px;font-weight:bold;line-height:50px;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.75);}\n+#cover{height:706px;background:#999999 url(\"../img/bg.jpg\") center center no-repeat;}#cover .title1{padding:0;background:url(\"../img/logo.png\") center 0 no-repeat;width:400px;height:50px;padding-top:160px;margin:0 auto 60px auto;color:#fafafa;}#cover .title1 h1{width:400px;margin:0 auto 20px auto;text-align:center;display:block;font-size:46px;font-weight:bold;line-height:50px;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.75);}\n #cover .title1 h3{width:400px;text-align:center;display:block;line-height:25px;margin:0 auto 30px auto;font-size:22px;color:#FFD143;font-weight:bold;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.75);}\n #cover .title1 h5{font-size:16px;line-height:28px;font-weight:normal;}\n #cover .title2{width:850px;margin-left:auto;margin-right:auto;margin-bottom:40px;}#cover .title2:before,#cover .title2:after{content:\" \";display:table;}\n #cover .title2:after{clear:both;}\n-#cover .title2 .op4{opacity:0.7;}\n+#cover .title2 .op4{opacity:0.4;}\n #cover .title2 .t2l{display:inline-block;width:400px;margin-right:50px;float:left;}#cover .title2 .t2l p{font-size:12px;color:white;line-height:26px;}#cover .title2 .t2l p .cc1{font-weight:bold;color:white;}\n #cover .title2 .t2l p .cc2{font-weight:bold;color:#FF8381;}\n #cover .title2 .t2l p .cc3{font-weight:bold;color:#8dff80;}\n #cover .title2 .t2l{*display:inline;}\n #cover .title2 .t2r{display:inline-block;width:400px;float:left;}#cover .title2 .t2r p{font-size:12px;color:white;line-height:26px;}\n #cover .title2 .t2r{*display:inline;}\n-#cover .title2 .t2l .t2-title,#cover .title2 .t2r .t2-title{font-size:18px;font-weight:bold;margin-bottom:4px;}\n+#cover .title2 .t2l .t2-title,#cover .title2 .t2r .t2-title{font-size:18px;font-weight:bold;margin-bottom:20px;}\n #cover .detail{text-align:center;width:850px;margin:0 auto 0 auto;color:white;font-size:20px;line-height:26px;}#cover .detail hr{margin-top:10px;margin-bottom:24px;border-top:1px solid #cccccc;}\n #cover .detail .f24{font-size:24px;font-weight:bold;}\n #cover .detail .f36{font-size:36px;font-weight:bold;}\n",
+			"settings":
+			{
+				"buffer_size": 2790,
+				"line_ending": "Windows",
+				"name": "style1.css -> style.css",
+				"scratch": true
+			}
+		},
+		{
+			"file": "static/assets/css/form.css",
+			"settings":
+			{
+				"buffer_size": 37208,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/assets/css/style1.css",
+			"settings":
+			{
+				"buffer_size": 21439,
 				"line_ending": "Unix"
 			}
 		}
@@ -476,6 +498,12 @@
 	},
 	"file_history":
 	[
+		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/static/assets/css/style1.css",
+		"/C/Users/LEIXUJUN/Desktop/baidu-charity-v1.27/baidu-charity-v1.27/static/assets/css/style.css",
+		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/index.html",
+		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/focus.html",
+		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/static/assets/img/btn-hover.png",
+		"/C/Users/LEIXUJUN/AppData/Roaming/Sublime Text 2/Packages/User/SFTP.errors.log",
 		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/sftp-config.json",
 		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/static/assets/css/form.css",
 		"/D/workspace_git/baidu-charity/focus.html",
@@ -589,6 +617,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"0.4",
 			"container",
 			"title1",
 			"&",
@@ -697,15 +726,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 25920,
+						"buffer_size": 26246,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1241,
-								1241
+								13231,
+								13231
 							]
 						],
 						"settings":
@@ -718,38 +747,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 100.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "focus.html",
-					"settings":
-					{
-						"buffer_size": 8828,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1025,
-								1025
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 360.0,
+						"translation.y": 7663.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -757,23 +755,23 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "static/assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 19465,
+						"buffer_size": 19655,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								681,
-								681
+								3301,
+								3301
 							]
 						],
 						"settings":
@@ -785,25 +783,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 480.0,
+						"translation.y": 3276.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "static/assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 20930,
+						"buffer_size": 21439,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19516,
-								19516
+								19820,
+								19820
 							]
 						],
 						"settings":
@@ -814,7 +812,93 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2753.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 2790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2422,
+								2424
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Diff/Diff.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "static/assets/css/form.css",
+					"settings":
+					{
+						"buffer_size": 37208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "static/assets/css/style1.css",
+					"settings":
+					{
+						"buffer_size": 21439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2689,
+								2801
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -850,7 +934,7 @@
 		"cols":
 		[
 			0.0,
-			0.458406001479,
+			0.487834549878,
 			1.0
 		],
 		"rows":
