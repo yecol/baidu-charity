@@ -40,12 +40,18 @@
                         <p><span class="cc4">活动时间：</span>2013年11月19日正式启动</p>
                         <p><span class="cc4">救助目标：</span>计划救助1000个贫困的先天性白内障儿童</p>
                         <p><span class="cc4">参与医疗机构：</span>爱尔眼科连锁机构等</p>
-                        <p class="ib"><span class="cc4">合作机构：</span></p><p class="ib2">
-                        <img src="/static/img/70_70.jpg"></img>
-                        <img src="/static/img/70_140.png">
+                        <p class="ib"><span class="cc4">合作机构：</span></p>
+
+                        <p class="ib2">
+                        <img src="/static/img/268128.png">
+                        <img src="/static/img/9958.png">
                         </p>
-                        <p><span class="cc4">倡议大使：</span>夏雨</p>
-                        <p class="ib"><span class="cc4">资源投入：</span><p class="ib2" id="cutoff2">计划救助1000个贫困的先天性白内障儿童</p>
+                        
+                        <!--<p><span class="cc4">倡议大使：</span>夏雨</p>
+                        <p class="ib"><span class="cc4">资源投入：</span>
+                        <p class="ib2" id="cutoff2">计划救助1000个贫困的先天性白内障儿童
+                        </p>
+                        -->
                         </div>
                     </div>
                 </div>
@@ -75,8 +81,9 @@
                             </div>
                         </li>
                     -->
-                        <li class="c-li cli-noactive">
-                            
+                        <li class="c-li cli-noactive">  
+                        </li>
+                        <li class="c-li cli-noactive">  
                         </li>
                 </ul>
                 </div>
@@ -98,11 +105,18 @@
 <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=6839131" ></script>
 <script type="text/javascript" id="bdshell_js"></script>
 <script type="text/javascript">
-document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+var bds_config = {
+    'searchPic' : false,
+    'bdPic' : 'http://1.hospitalbd.duapp.com/static/img/detail.jpg', 
+    'bdText' : '由百度健康公益联盟联合多家知名眼科类医疗机构共同发起的"瞳计划——贫困地区先天性白内障儿童救助行动"，于2013年11月19日正式启动。'
+};
+
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
 </script>
 <!-- Baidu Button END -->
 
                         </div>
+                        <p style="font-size:18px;font-weight:bold;text-align:center;line-height:40px;">瞳计划&mdash;&mdash;贫困地区先天性白内障儿童救助行动</p>
                         <p>"瞳计划——贫困地区先天性白内障儿童救助行动"由百度健康公益联盟联合多家知名眼科类医疗机构共同发起。于2013年11月19日正式启动，计划救助1000个贫困的先天性白内障儿童，也是百度健康公益联盟的第一个主题救助项目。</p>
                         <p>儿童先天性白内障在我国的发生率为0.5%，也就是每200个孩子里就有一个患有先天性白内障，是儿童较为常见的疾病。白内障能导致婴幼儿失明或弱势，失明儿童中有22%-30%为白内障所致，其已成为儿童失明的第二大原因。</p>
                         <p>虽然目前白内障手术已经比较成熟，患病儿童通过手术可以重见光明，但对于儿童的治疗比成人更复杂、难度更高，特别是双眼完全性白内障的儿童，应在出生后1-2周内手术，最迟不可超过6个月，一旦错过治疗，会导致终生弱势甚至失明。而且，该疾病发病率高、分布地域广，贫困地区的患儿，往往因为医疗资源缺乏、无钱医治等问题耽误治疗，留下终生遗憾。</p>
@@ -146,7 +160,7 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
 
         $(document).ready(function() {
             //subText("#cutoff1",13,true);//焦点救助标题
-            subText("#cutoff2",190,true);//资源投入内容
+            //subText("#cutoff2",190,true);//资源投入内容
             multiSubText(".c-r-t",10,false);
             $('#floatreturn').click(function(e) {
                 $('html,body').animate({scrollTop: 0}, 500);

@@ -21,7 +21,7 @@ body .tip{display:none;width:100%;height:138px;background:url("../img/tip.png") 
 #cover .title2 .op4{opacity:0.7;}
 #cover .title2 .t2l{display:inline-block;width:400px;margin-right:50px;float:left;}#cover .title2 .t2l p{font-size:16px;color:white;line-height:26px;}#cover .title2 .t2l p .cc1{font-weight:bold;color:#86D9FF;}
 #cover .title2 .t2l p .cc2{font-weight:bold;color:#FF8381;}
-#cover .title2 .t2l p .cc3{font-weight:bold;color:#8DFF80;}
+#cover .title2 .t2l p .cc3{font-weight:bold;color:#8dff80;}
 #cover .title2 .t2l p .cc4{font-weight:bold;color:#FFD143;}
 #cover .title2 .t2l{*display:inline;}
 #cover .title2 .t2r{display:inline-block;width:400px;float:left;}#cover .title2 .t2r p{font-size:16px;color:white;line-height:26px;}
@@ -133,7 +133,7 @@ body .tip{display:none;width:100%;height:138px;background:url("../img/tip.png") 
 #page-focus .fcontainer .frame .content p .cc5{color:red;font-weight:bold;}
 #page-focus .fcontainer .frame .content p .bb1{color:#1F82E1;font-size:18px;font-weight:bold;}
 #page-focus .fcontainer .frame .content p.ib{vertical-align:top;display:inline-block;}
-#page-focus .fcontainer .frame .content p.ib2{width:220px;display:inline-block;}#page-focus .fcontainer .frame .content p.ib2 img{height:64px;margin-right:2px;margin-bottom:2px;}
+#page-focus .fcontainer .frame .content p.ib2{width:220px;display:inline-block;}#page-focus .fcontainer .frame .content p.ib2 img{height:64px;margin-right:2px;margin-bottom:2px}
 #page-focus .fcontainer .frame .content p.ib2{*display:inline;}
 #page-focus .fcontainer .frame .content p.mr20{margin-top:20px;}
 #page-focus .fcontainer .frame .content p .s{font-weight:bold;}

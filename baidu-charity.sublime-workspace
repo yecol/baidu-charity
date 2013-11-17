@@ -381,8 +381,8 @@
 			"file": "static/assets/css/style1.css",
 			"settings":
 			{
-				"buffer_size": 21439,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -747,7 +747,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7663.0,
+						"translation.y": 7743.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -835,6 +835,8 @@
 						"settings":
 						{
 							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
 							"syntax": "Packages/Diff/Diff.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -879,15 +881,15 @@
 					"file": "static/assets/css/style1.css",
 					"settings":
 					{
-						"buffer_size": 21439,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2689,
-								2801
+								0,
+								0
 							]
 						],
 						"settings":
