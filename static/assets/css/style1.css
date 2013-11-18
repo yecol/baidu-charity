@@ -42,7 +42,7 @@ body .tip{display:none;width:100%;height:138px;background:url("../img/tip.png") 
 .section .title:after{clear:both;}
 .section .title1{color:white;height:40px;padding:20px 0 0 35px;font-weight:bold;font-size:26px;}
 #focus{background-color:#01a8d2;height:600px;}#focus .container{padding-top:30px;background:url("../img/focus-icon.png") 70px 40px no-repeat;}
-#focus .title1{background:url("../img/quto2.png") 140px 0 no-repeat;}
+;#focus .title1{background:url("../img/quto2.png") 140px 0 no-repeat;}
 #focus .frame{background-color:white;border-radius:5px;}#focus .frame div.image{display:block;float:left;width:630px;height:434px;overflow:hidden;}#focus .frame div.image img{width:630px;border:0px;border-top-left-radius:5px;border-bottom-left-radius:5px;}
 #focus .frame .content{background-color:white;display:block;float:left;width:294px;height:228px;overflow:hidden;padding:20px;}#focus .frame .content h3{font-size:20px;line-height:20px;margin-bottom:20px;font-weight:bold;color:#1f82e1;}
 #focus .frame .content p{color:#6c6c6c;font-size:12px;line-height:20px;}#focus .frame .content p.mr20{margin-top:20px;}
@@ -71,7 +71,8 @@ body .tip{display:none;width:100%;height:138px;background:url("../img/tip.png") 
 #focus .frame:before,#focus .frame:after{content:" ";display:table;}
 #focus .frame:after{clear:both;}
 #union{background-color:#e8534f;height:800px;}#union .container{padding-top:80px;background:url("../img/union-icon.png") 70px 80px no-repeat;}
-#union .title1{background:url("../img/quto2.png") 190px 0 no-repeat;}#union .title1 a.seeall{background:url("../img/next2.png") 110px 0px no-repeat;font-size:22px;font-weight:normal;color:white;text-decoration:none;float:right;width:120px;height:50px;padding-top:5px;padding-left:26px;display:block;}
+;#union .title1{background:url("../img/quto2.png") 190px 0 no-repeat;}
+#union .title1 a.seeall{background:url("../img/next2.png") 110px 0px no-repeat;font-size:22px;font-weight:normal;color:white;text-decoration:none;float:right;width:120px;height:50px;padding-top:5px;padding-left:26px;display:block;}
 #union .face-frame{background-color:white;border-radius:5px;height:700px;background-color:#e8534f;}#union .face-frame:before,#union .face-frame:after{content:" ";display:table;}
 #union .face-frame:after{clear:both;}
 #union .face-frame ul{position:relative;list-style:none;}#union .face-frame ul li,#union .face-frame ul .face{background-color:white;display:list-item;position:absolute;overflow:hidden;}#union .face-frame ul li.face2,#union .face-frame ul .face.face2{height:268px;width:268px;}#union .face-frame ul li.face2 img,#union .face-frame ul .face.face2 img{height:268px;width:268px;}
