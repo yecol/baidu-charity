@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width">
         <meta name="description" content="">
         <meta name="author" content="yecol">
         <title>
@@ -11,6 +11,10 @@
         </title>
         <link href="/static/assets/css/form.css" rel="stylesheet" type="text/css">
         <link href="/static/assets/css/style.css" rel="stylesheet" type="text/css">
+
+        <!-- -->
+        <link href="/static/video-js/video-js.css" rel="stylesheet" type="text/css">
+        <!-- -->
 
         <!--[if lt IE 9]>
         <script src="/static/assets/js/html5shiv.js"></script>
@@ -32,6 +36,10 @@
             width: 100%;
             _position:absolute;
             _top:expression(documentElement.scrollTop+30 + "px")
+        }
+        embed {
+            position: relative;
+            z-index: 1;
         }
         </style>
     </head>
@@ -81,27 +89,41 @@
                         <p><span class="cc2">上万家</span><span class="op4">专业医疗机构成员，覆盖国内<span class="cc2">上千个县市</span></span></p>
                         <p><span class="op4">联合投入</span><span class="cc3">价值2亿元</span><span class="op4">的医疗资源</span></p>
                     </div>
+
+                    <!-- -->
                     <div class="t2r">
                         <!--<p class="t2-title">项目简介</p>-->
-                        <p>
-                        
-                            <object id="swf_1384785309126" height="258" width="344" type="application/x-shockwave-flash" data="http://player.video.qiyi.com/7df5386c839edbf9465b06f0b5974866/0/0/v_19rrhgby0c.swf-albumId=211452800-tvId=211452800-isPurchase=0-cnId=25" style=""><param name="quality" value="high" /><param name="allowScriptAccess" value="always" /><param name="wMode" value="window" /><param name="align" value="middle" /><param name="bgcolor" value="#000000" /><param name="swLiveConnect" value="true" /><param name="loop" value="true" /><param name="play" value="true" /><param name="DeviceFont" value="false" /><param name="allowFullScreen" value="true" /><param name="menu" value="true" /></object>
-                            
-                            <!-- HTML5 -->
-                            
-<!--                             <video controls="controls" poster="/static/img/cover.png" width="344" height="258">
-                                
-                                <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/mp4" />
-                                <object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="344" height="258">
-                                    <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
-                                    <param name="allowFullScreen" value="true" />
-                                    <param name="wmode" value="transparent" />
-                                    <param name="flashVars" value="config={'playlist':['%2Fstatic%2Fimg%2Fcover.png',{'url':'http%3A%2F%2Fclips.vorwaerts-gmbh.de%2Fbig_buck_bunny.mp4','autoPlay':false}]}" />
-                                    <img alt="Big Buck Bunny" src="/static/img/cover.png" width="344" height="258" title="No video playback capabilities, please download the video below" />
+                       <p><span class="op4" style="font-size:19px;">百度健康公益联盟由百度公司联合近万家专业医疗机构共同发起，践行“平等成就健康”的使命，专注于儿童医疗救助。联盟旨在为爱心医疗机构与经济困难且需要救助的患儿牵线搭桥，让这些儿童与爱心医疗机构形成一对一的救助关系，促进社会和谐发展。</span></p></div>
+                      
+                    <!--
+                    <div class="t2r">
+                        <!--<p class="t2-title">项目简介</p>-->
+                    <!--    <p>
+                            <!--
+                            <embed src="http://player.video.qiyi.com/4b007a78aa953294a2d7b8c8798dcd10/0/2701/v_19rrh9ghm0.swf-albumId=622967-tvId=206232900-isPurchase=0-cnId=2" quality="high" width="344" height="258" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+
+                            -->
+                    <!--        <video name="media" class="video-js vjs-default-skin" controls="" preload="none" width="344" height="258" poster="/static/img/ningning111903.jpg">
+                                <source src="/static/ningning.mp4" type="video/mp4" />
+                                <source src="/static/ningning.ogv" type="video/ogg" />
+
+                                <object type="application/x-shockwave-flash" data="Untitled-1.swf" width="345" height="220">
+                                    <param name="movie" value="/static/Untitled-1.swf" />
+                                     <param name="quality" value="high" />
+                                     <param name="bgcolor" value="#ffffff" />
+                                     <param name="play" value="true" />
+                                     <param name="loop" value="true" />
+                                     <param name="wmode" value="window" />
+                                     <param name="scale" value="showall" />
+                                     <param name="menu" value="true" />
+                                     <param name="devicefont" value="false" />
+                                     <param name="salign" value="" />
+                                     <param name="allowScriptAccess" value="sameDomain" />
                                 </object>
-                            </video> -->
-                            
-                        </p></div>
+                            </video>
+                        </p>
+                    </div>
+                -->
                 </div>
 
             </div>
@@ -294,14 +316,22 @@
         </div><!-- /.modal -->
 
 <div class="tip"></div>
+<div style="display:none">
+      <script>
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F1f3202d820180a39f736f20fce790de8' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+</div>
 
         <script src="/static/assets/js/jquery-1.10.2.min.js"></script>
         <script src="/static/assets/js/bootstrap.min.js"></script>
 
         <!-- 输入校验 -->
-        <script src="/static/backbone/backbone-1.0.0.min.js"></script>
+        <<script src="/static/backbone/backbone-1.0.0.min.js"></script>
         <script src="/static/js/system.js"></script>
         <script src="/static/js/validate.js"></script>
+
+        <script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
         <!-- 输入校验 -->
 
         <script>
@@ -651,11 +681,6 @@
                 firstTime = 0;
             }
         });  
-        </script>
-
-        <script type="text/javascript">
-            var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-            document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F6b83942048be2f98b58cb7e82a710c44' type='text/javascript'%3E%3C/script%3E"));
         </script>
   </body>
 </html>
