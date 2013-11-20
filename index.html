@@ -90,30 +90,28 @@
                         <p><span class="op4">联合投入</span><span class="cc3">价值2亿元</span><span class="op4">的医疗资源</span></p>
                     </div>
 
-                    <!-- -->
-                    <div class="t2r">
+                    <!--<div class="t2r">-->
                         <!--<p class="t2-title">项目简介</p>-->
-                       <p><span class="op4" style="font-size:19px;">百度健康公益联盟由百度公司联合近万家专业医疗机构共同发起，践行“平等成就健康”的使命，专注于儿童医疗救助。联盟旨在为爱心医疗机构与经济困难且需要救助的患儿牵线搭桥，让这些儿童与爱心医疗机构形成一对一的救助关系，促进社会和谐发展。</span></p></div>
+                    <!--   <p><span class="op4" style="font-size:19px;">百度健康公益联盟由百度公司联合近万家专业医疗机构共同发起，践行“平等成就健康”的使命，专注于儿童医疗救助。联盟旨在为爱心医疗机构与经济困难且需要救助的患儿牵线搭桥，让这些儿童与爱心医疗机构形成一对一的救助关系，促进社会和谐发展。</span></p></div> -->
                       
-                    <!--
+                    
                     <div class="t2r">
                         <!--<p class="t2-title">项目简介</p>-->
-                    <!--    <p>
+                        <p>
                             <!--
                             <embed src="http://player.video.qiyi.com/4b007a78aa953294a2d7b8c8798dcd10/0/2701/v_19rrh9ghm0.swf-albumId=622967-tvId=206232900-isPurchase=0-cnId=2" quality="high" width="344" height="258" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 
                             -->
-                    <!--        <video name="media" class="video-js vjs-default-skin" controls="" preload="none" width="344" height="258" poster="/static/img/ningning111903.jpg">
+                            <video name="media" class="video-js vjs-default-skin" controls="" preload="none" width="344" height="258" poster="/static/img/ningning111903.jpg">
                                 <source src="/static/ningning.mp4" type="video/mp4" />
                                 <source src="/static/ningning.ogv" type="video/ogg" />
-
-                                <object type="application/x-shockwave-flash" data="Untitled-1.swf" width="345" height="220">
+                                <object type="application/x-shockwave-flash" data="/static/Untitled-1.swf" width="300" height="249">
                                     <param name="movie" value="/static/Untitled-1.swf" />
                                      <param name="quality" value="high" />
                                      <param name="bgcolor" value="#ffffff" />
                                      <param name="play" value="true" />
                                      <param name="loop" value="true" />
-                                     <param name="wmode" value="window" />
+                                     <param name="wmode" value="opaque" />
                                      <param name="scale" value="showall" />
                                      <param name="menu" value="true" />
                                      <param name="devicefont" value="false" />
@@ -123,7 +121,6 @@
                             </video>
                         </p>
                     </div>
-                -->
                 </div>
 
             </div>
@@ -212,6 +209,13 @@
             </div>
         </div>
 
+        <div style="display:none">
+              <script>
+                var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F1f3202d820180a39f736f20fce790de8' type='text/javascript'%3E%3C/script%3E"));
+              </script>
+        </div>
+
         <div class="section" id="footer">
             <p>©2013 Baidu <a href="http://www.baidu.com/duty/">使用百度必读</a> 国家药监局：（京）-经营性-2012-0009</p>
         </div>
@@ -220,6 +224,7 @@
         <!-- TODO 加入在此加入所有轮换图片-->
         <div id="preload-1">
             <!-- 加入1*1 -->
+            <img src="/static/img/f1.jpg"></img>
         </div>
 
         <div id="preload-2">
@@ -316,17 +321,11 @@
         </div><!-- /.modal -->
 
 <div class="tip"></div>
-<div style="display:none">
-      <script>
-        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F1f3202d820180a39f736f20fce790de8' type='text/javascript'%3E%3C/script%3E"));
-      </script>
-</div>
-
         <script src="/static/assets/js/jquery-1.10.2.min.js"></script>
         <script src="/static/assets/js/bootstrap.min.js"></script>
 
         <!-- 输入校验 -->
+        <<script src="/static/backbone/underscore-1.4.4.min.js"></script>
         <<script src="/static/backbone/backbone-1.0.0.min.js"></script>
         <script src="/static/js/system.js"></script>
         <script src="/static/js/validate.js"></script>
@@ -626,10 +625,10 @@
                     //     }
                     var $swIndex = 1 + Math.floor(Math.random() * 14);
 
-                    //if ($swIndex == 1 || $swIndex == 5) {
-                        //左上角和右上角图标不变
-                    //    return;
-                    //}
+                    if ($swIndex == 1 || $swIndex == 9) {
+                        //左上角和左下角图标不变
+                        return;
+                    }
 
                     var $curli = $(".face-frame ul li:nth-child("+$swIndex+")");
 
@@ -676,7 +675,7 @@
                     // },200);
 
 
-                } , 2000);
+                } , 1500);
             }else if(h_num<$("#union").offset().top-400){
                 firstTime = 0;
             }
