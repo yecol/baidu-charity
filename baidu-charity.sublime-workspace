@@ -4,8 +4,12 @@
 		"selected_items":
 		[
 			[
-				"min",
-				"min-width"
+				"off",
+				"offsetArray"
+			],
+			[
+				"info",
+				"info-ct"
 			],
 			[
 				"font",
@@ -13,15 +17,79 @@
 			],
 			[
 				"mar",
-				"margin"
+				"margin-right"
 			],
 			[
-				"t2",
-				"t2l"
+				"fin",
+				"fin-hsptl"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"clear",
+				"clearfix"
 			],
 			[
 				"padding",
 				"padding"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"fa",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"hnav",
+				"hnav-a"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"hsp",
+				"hsptl"
+			],
+			[
+				"hs",
+				"hsptl-page"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"t2",
+				"t2l"
 			],
 			[
 				"fade",
@@ -44,28 +112,12 @@
 				"selectString"
 			],
 			[
-				"back",
-				"background"
-			],
-			[
 				"titl",
 				"title"
 			],
 			[
-				"padd",
-				"padding-right"
-			],
-			[
 				"col",
 				"col-xs-4"
-			],
-			[
-				"in",
-				"inline"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"inline",
@@ -96,10 +148,6 @@
 				"container"
 			],
 			[
-				"clear",
-				"clear"
-			],
-			[
 				"has",
 				"hasClass	.hasClass"
 			],
@@ -118,10 +166,6 @@
 			[
 				"sta",
 				"stage1"
-			],
-			[
-				"bo",
-				"border-radius"
 			],
 			[
 				"rea",
@@ -164,20 +208,8 @@
 				"addClass	addClass"
 			],
 			[
-				"off",
-				"offset	.offset"
-			],
-			[
 				"ma",
 				"margin-left"
-			],
-			[
-				"te",
-				"text-decoration"
-			],
-			[
-				"c",
-				"clearfix"
 			],
 			[
 				"nav",
@@ -226,10 +258,6 @@
 			[
 				"quto",
 				"quto2"
-			],
-			[
-				"li",
-				"line-height"
 			],
 			[
 				"link",
@@ -343,7 +371,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 28515,
+				"buffer_size": 38635,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "union.html",
+			"settings":
+			{
+				"buffer_size": 16287,
 				"line_ending": "Windows"
 			}
 		},
@@ -351,7 +387,7 @@
 			"file": "static/assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 20023,
+				"buffer_size": 26465,
 				"line_ending": "Windows"
 			}
 		},
@@ -359,7 +395,7 @@
 			"file": "static/assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 21313,
+				"buffer_size": 28914,
 				"line_ending": "Unix"
 			}
 		}
@@ -476,9 +512,10 @@
 	},
 	"file_history":
 	[
-		"/D/workspace_git/baidu-charity/focus.html",
 		"/D/workspace_git/baidu-charity/union.html",
 		"/D/workspace_git/baidu-charity/index.html",
+		"/D/skydrive/GoodReader/archive/一生孤注掷温柔.txt",
+		"/D/workspace_git/baidu-charity/focus.html",
 		"/C/Users/Yecol/Desktop/baidu-charity-v1.32/baidu-charity-v1.32/index.html",
 		"/D/workspace_git/baidu-charity/static/assets/css/style.css",
 		"/D/workspace_git/baidu-charity/static/assets/css/style1.css",
@@ -597,6 +634,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"info",
+			"494",
+			"taila",
+			"active",
+			"nav",
+			"inline",
 			"section-focus",
 			"title1",
 			"0.4",
@@ -708,15 +751,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 28515,
+						"buffer_size": 38635,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3990,
-								3990
+								34306,
+								34306
 							]
 						],
 						"settings":
@@ -729,7 +772,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1653.0,
+						"translation.y": 14860.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "union.html",
+					"settings":
+					{
+						"buffer_size": 16287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15408,
+								15412
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1066.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -741,19 +815,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "static/assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 20023,
+						"buffer_size": 26465,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18995,
-								18995
+								9984,
+								9981
 							]
 						],
 						"settings":
@@ -765,25 +839,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 20872.0,
+						"translation.y": 10821.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "static/assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 21313,
+						"buffer_size": 28914,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1208,
-								1208
+								19529,
+								19529
 							]
 						],
 						"settings":
@@ -793,8 +867,8 @@
 							"synced": false,
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 558.0,
+						"translation.y": 3021.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -830,7 +904,7 @@
 		"cols":
 		[
 			0.0,
-			0.82259809417,
+			0.713325183374,
 			1.0
 		],
 		"rows":
@@ -873,6 +947,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 320.0,
+	"side_bar_width": 284.0,
 	"status_bar_visible": true
 }
