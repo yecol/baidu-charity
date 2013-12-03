@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"cur",
+				"curGrp"
+			],
+			[
 				"off",
 				"offsetArray"
 			],
@@ -12,32 +44,12 @@
 				"info-ct"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
-				"mar",
-				"margin-right"
-			],
-			[
 				"fin",
 				"fin-hsptl"
 			],
 			[
-				"bo",
-				"border-radius"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
 				"clear",
 				"clearfix"
-			],
-			[
-				"padding",
-				"padding"
 			],
 			[
 				"text",
@@ -186,10 +198,6 @@
 			[
 				"lis",
 				"list-style"
-			],
-			[
-				"bor",
-				"border-bottom"
 			],
 			[
 				"mr",
@@ -368,18 +376,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "finish.html",
 			"settings":
 			{
-				"buffer_size": 38635,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "union.html",
-			"settings":
-			{
-				"buffer_size": 16287,
+				"buffer_size": 9124,
 				"line_ending": "Windows"
 			}
 		},
@@ -387,7 +387,7 @@
 			"file": "static/assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 26465,
+				"buffer_size": 31320,
 				"line_ending": "Windows"
 			}
 		},
@@ -395,7 +395,7 @@
 			"file": "static/assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 28914,
+				"buffer_size": 34576,
 				"line_ending": "Unix"
 			}
 		}
@@ -403,9 +403,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 173.0,
 		"selected_items":
 		[
+			[
+				"error",
+				"SublimeLint: Show All Errors"
+			],
 			[
 				"tid",
 				"Tidy HTML"
@@ -512,10 +516,10 @@
 	},
 	"file_history":
 	[
-		"/D/workspace_git/baidu-charity/union.html",
 		"/D/workspace_git/baidu-charity/index.html",
-		"/D/skydrive/GoodReader/archive/一生孤注掷温柔.txt",
 		"/D/workspace_git/baidu-charity/focus.html",
+		"/D/workspace_git/baidu-charity/union.html",
+		"/D/skydrive/GoodReader/archive/一生孤注掷温柔.txt",
 		"/C/Users/Yecol/Desktop/baidu-charity-v1.32/baidu-charity-v1.32/index.html",
 		"/D/workspace_git/baidu-charity/static/assets/css/style.css",
 		"/D/workspace_git/baidu-charity/static/assets/css/style1.css",
@@ -634,6 +638,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"page-finish",
+			"finish",
+			"finish-2",
+			"page-finish",
+			"offset",
+			"focus",
+			"header",
+			"menu",
+			"nav",
 			"info",
 			"494",
 			"taila",
@@ -748,18 +761,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "finish.html",
 					"settings":
 					{
-						"buffer_size": 38635,
+						"buffer_size": 9124,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								34306,
-								34306
+								1236,
+								1242
 							]
 						],
 						"settings":
@@ -772,38 +785,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 14860.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "union.html",
-					"settings":
-					{
-						"buffer_size": 16287,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								15408,
-								15412
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1066.0,
+						"translation.y": 247.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -815,19 +797,19 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "static/assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 26465,
+						"buffer_size": 31320,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9984,
-								9981
+								21349,
+								21349
 							]
 						],
 						"settings":
@@ -839,25 +821,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 10821.0,
+						"translation.y": 6061.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "static/assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 28914,
+						"buffer_size": 34576,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								19529,
-								19529
+								28870,
+								28876
 							]
 						],
 						"settings":
@@ -867,8 +849,8 @@
 							"synced": false,
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 558.0,
-						"translation.y": 3021.0,
+						"translation.x": 457.0,
+						"translation.y": 3943.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -904,7 +886,7 @@
 		"cols":
 		[
 			0.0,
-			0.713325183374,
+			0.267950963222,
 			1.0
 		],
 		"rows":
@@ -947,6 +929,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 284.0,
+	"side_bar_width": 207.0,
 	"status_bar_visible": true
 }
