@@ -4,27 +4,59 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding-right"
+			],
+			[
 				"padding",
 				"padding-left"
 			],
 			[
-				"font",
-				"font-size"
+				"margi",
+				"margin-right"
 			],
 			[
 				"mar",
-				"margin-bottom"
+				"margin-right"
 			],
 			[
-				"bor",
-				"border-bottom"
+				"bo",
+				"border-radius"
+			],
+			[
+				"c",
+				"clearfix"
+			],
+			[
+				"fon",
+				"font-weight"
 			],
 			[
 				"back",
 				"background-color"
 			],
 			[
-				"bo",
+				"font",
+				"font-family"
+			],
+			[
+				"padi",
+				"padding-top"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"b",
+				"border-bottom"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"bor",
 				"border-radius"
 			],
 			[
@@ -56,16 +88,8 @@
 				"text-align"
 			],
 			[
-				"c",
-				"cursor"
-			],
-			[
 				"fa",
 				"fadeOut	.fadeOut()"
-			],
-			[
-				"padd",
-				"padding-bottom"
 			],
 			[
 				"te",
@@ -134,10 +158,6 @@
 			[
 				"inline",
 				"inline"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"a",
@@ -216,10 +236,6 @@
 				"addClass	addClass"
 			],
 			[
-				"ma",
-				"margin-left"
-			],
-			[
 				"nav",
 				"nav-btn"
 			],
@@ -290,10 +306,6 @@
 			[
 				"y-g",
 				"y-green-2"
-			],
-			[
-				"margi",
-				"margin-left"
 			],
 			[
 				"margin",
@@ -376,10 +388,10 @@
 	"buffers":
 	[
 		{
-			"file": "finish.html",
+			"file": "focus-list.html",
 			"settings":
 			{
-				"buffer_size": 9124,
+				"buffer_size": 10928,
 				"line_ending": "Windows"
 			}
 		},
@@ -387,7 +399,7 @@
 			"file": "static/assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 31320,
+				"buffer_size": 43341,
 				"line_ending": "Windows"
 			}
 		},
@@ -395,8 +407,16 @@
 			"file": "static/assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 34576,
+				"buffer_size": 50890,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/assets/css/effect3.css",
+			"settings":
+			{
+				"buffer_size": 2906,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -516,9 +536,16 @@
 	},
 	"file_history":
 	[
-		"/D/workspace_git/baidu-charity/index.html",
 		"/D/workspace_git/baidu-charity/focus.html",
+		"/D/workspace_git/baidu-charity/index.html",
+		"/D/workspace_git/baidu-charity/static/assets/css/effect.css",
+		"/D/workspace_git/baidu-charity/static/assets/css/effect2.css",
+		"/D/workspace_git/baidu-charity/sftp-config.json",
+		"/D/workspace_git/baidu-charity/focus-list.html",
+		"/D/workspace_git/baidu-charity/finish-list.html",
 		"/D/workspace_git/baidu-charity/union.html",
+		"/D/workspace_git/baidu-charity/info.html",
+		"/D/workspace_git/baidu-charity/finish.html",
 		"/D/skydrive/GoodReader/archive/一生孤注掷温柔.txt",
 		"/C/Users/Yecol/Desktop/baidu-charity-v1.32/baidu-charity-v1.32/index.html",
 		"/D/workspace_git/baidu-charity/static/assets/css/style.css",
@@ -536,7 +563,6 @@
 		"/D/workspace_git/baidu-charity/style.css",
 		"/D/workspace_git/baidu-charity/index1.html",
 		"/D/workspace_git/baidu-charity/static/assets/css/form1.css",
-		"/D/workspace_git/baidu-charity/sftp-config.json",
 		"/D/workspace_git/baidu-charity/static/assets/js/system/system.js",
 		"/D/workspace_git/baidu-charity/static/assets/js/system/validate.js",
 		"/D/workspace_git/baidu-charity/assets/css/style.less",
@@ -638,6 +664,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n",
+			"ally",
+			"page-finish",
+			"focus",
+			"focus1",
 			"page-finish",
 			"finish",
 			"finish-2",
@@ -761,18 +792,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "finish.html",
+					"file": "focus-list.html",
 					"settings":
 					{
-						"buffer_size": 9124,
+						"buffer_size": 10928,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1236,
-								1242
+								2146,
+								2146
 							]
 						],
 						"settings":
@@ -785,7 +816,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 247.0,
+						"translation.y": 826.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -793,7 +824,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -801,15 +832,15 @@
 					"file": "static/assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 31320,
+						"buffer_size": 43341,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								21349,
-								21349
+								33561,
+								33561
 							]
 						],
 						"settings":
@@ -821,7 +852,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6061.0,
+						"translation.y": 37833.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -831,15 +862,15 @@
 					"file": "static/assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 34576,
+						"buffer_size": 50890,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								28870,
-								28876
+								0,
+								0
 							]
 						],
 						"settings":
@@ -849,8 +880,39 @@
 							"synced": false,
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
-						"translation.x": 457.0,
-						"translation.y": 3943.0,
+						"translation.x": 486.0,
+						"translation.y": 4290.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "static/assets/css/effect3.css",
+					"settings":
+					{
+						"buffer_size": 2906,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								354,
+								354
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -886,7 +948,7 @@
 		"cols":
 		[
 			0.0,
-			0.267950963222,
+			0.335489106051,
 			1.0
 		],
 		"rows":
@@ -929,6 +991,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 207.0,
+	"side_bar_width": 385.0,
 	"status_bar_visible": true
 }
