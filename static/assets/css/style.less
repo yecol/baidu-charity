@@ -1669,13 +1669,14 @@ body {
 				ul{
 					li{
 						width: 260px;
-						height: 200px;
+						height: 130px;
 						overflow: hidden;
 					}
 				}
 				.proc{
 					padding-left: 50px;
 					padding-top: 30px;
+					background: url("../img/vl.png") 0 0 no-repeat;
 					.clearfix;
 					.p-ttl{
 						float: left;
@@ -1693,6 +1694,15 @@ body {
 						float: left;
 						color: #A7A7A7;
 					}
+				}
+				.proc-gray{
+					background: url("../img/vl-g.png") 0 0 no-repeat;
+				}
+				.proc-active{
+					background: url("../img/vl-cur.png") 0 0 no-repeat;
+				}
+				.proc-1{
+					background: url("../img/vl-1.png") 0 0 no-repeat;
 				}
 			}
 			.profile{
@@ -1720,19 +1730,6 @@ body {
 			}
 		}
 		
-	}
-	#floatreturn{
-		width: 60px;
-		height: 60px;
-		background: url("../img/return.png") 0 0 no-repeat;
-		display: block;
-		position: fixed;
-		float: left;
-		top: 999px;
-		left: 999px;
-		&:hover{
-			background: url("../img/return-hover.png") 0 0 no-repeat;
-		}
 	}
 }
 .search-div{
@@ -1911,13 +1908,51 @@ body {
 			width: 962px;
 			height: 434px;
 			overflow: hidden;
-			.fl-li{
-				display: inline-block;
+			.slide{
 				border-radius: 5px;
+				.clearfix;
 				img{
 					width: 962px;
 					height: 434px;
 					border-radius: 5px;
+				}
+				.sl-info{
+					padding: 20px;
+					width: 922px;
+					position: relative;
+					top: -100px;
+					z-index: 5;
+					.clearfix;
+					.date{
+						float: left;
+						width: 600px;
+						font-size: 16px;
+						font-weight: bold;
+						color: white;
+						line-height: 20px;
+						margin-bottom: 10px;
+					}
+					.title{
+						float: left;
+						width: 600px;
+						font-size: 26px;
+						font-weight: bold;
+						color: white;
+						line-height: 26px;
+						a{
+							color: white;
+							text-decoration: none;
+						}
+					}
+					.org{
+						text-align: right;
+						padding-top: 12px;
+						width: 300px;
+						float: right;
+						font-size: 14px;
+						font-weight: bold;
+						color: white;
+					}
 				}
 			}
 		}
@@ -2075,6 +2110,72 @@ body {
 			width: 200px;
 			float: none;
 			margin: 10px auto 20px auto;
+		}
+	}
+}
+
+#floatreturn{
+		width: 60px;
+		height: 60px;
+		background: url("../img/return.png") 0 0 no-repeat;
+		display: block;
+		position: fixed;
+		float: left;
+		top: 999px;
+		left: 999px;
+		&:hover{
+			background: url("../img/return-hover.png") 0 0 no-repeat;
+		}
+}
+
+#page-info-list{
+	background-color: #F2F2F2;
+	min-width: 1280px;
+	.fcontainer{
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 60px;
+		margin-bottom: 50px;
+		width: 962px;
+		.clearfix;
+		.seci-content{
+			width: 962px;
+			.clearfix;
+			.seci-col{
+				float: left;
+				width: 307px;
+				.clearfix;
+			}
+			.i-tile{
+				float: left;
+				width: 287px;
+				margin: 10px;
+				color: #6c6c6c;
+				background-color: white;
+				font-size: 12px;
+				border-radius: 5px;
+				img{
+					width: 287px;
+					border-top-left-radius: 5px;
+					border-top-right-radius: 5px;
+					overflow: hidden;
+				}
+				.tile-dt{
+					padding: 10px 20px;
+				}
+				.tile-tl{
+					color: #000;
+					font-size: 18px;
+					font-weight: bold;
+					padding: 0px 20px 10px 20px;
+				}
+				.tile-desc{
+					line-height: 18px;
+					padding: 0 20px 5px 20px;
+					height: 40px;
+					overflow: hidden;
+				}
+			}
 		}
 	}
 }

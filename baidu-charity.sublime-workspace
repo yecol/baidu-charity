@@ -4,19 +4,35 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
 				"padd",
 				"padding-right"
 			],
 			[
-				"padding",
-				"padding-left"
-			],
-			[
 				"margi",
-				"margin-right"
-			],
-			[
-				"mar",
 				"margin-right"
 			],
 			[
@@ -30,14 +46,6 @@
 			[
 				"fon",
 				"font-weight"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
-				"font",
-				"font-family"
 			],
 			[
 				"padi",
@@ -84,10 +92,6 @@
 				"clearfix"
 			],
 			[
-				"text",
-				"text-align"
-			],
-			[
 				"fa",
 				"fadeOut	.fadeOut()"
 			],
@@ -114,10 +118,6 @@
 			[
 				"tex",
 				"text-decoration"
-			],
-			[
-				"li",
-				"list-style"
 			],
 			[
 				"min",
@@ -388,10 +388,18 @@
 	"buffers":
 	[
 		{
-			"file": "focus-list.html",
+			"file": "finish.html",
 			"settings":
 			{
-				"buffer_size": 10928,
+				"buffer_size": 13091,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/assets/css/effect2.css",
+			"settings":
+			{
+				"buffer_size": 2538,
 				"line_ending": "Windows"
 			}
 		},
@@ -399,7 +407,7 @@
 			"file": "static/assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 43341,
+				"buffer_size": 45216,
 				"line_ending": "Windows"
 			}
 		},
@@ -407,16 +415,8 @@
 			"file": "static/assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 50890,
+				"buffer_size": 53742,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "static/assets/css/effect3.css",
-			"settings":
-			{
-				"buffer_size": 2906,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -536,13 +536,15 @@
 	},
 	"file_history":
 	[
+		"/D/workspace_git/baidu-charity/info-list.html",
 		"/D/workspace_git/baidu-charity/focus.html",
+		"/D/workspace_git/baidu-charity/finish-list.html",
+		"/D/workspace_git/baidu-charity/focus-list.html",
+		"/D/workspace_git/baidu-charity/static/assets/css/effect3.css",
 		"/D/workspace_git/baidu-charity/index.html",
 		"/D/workspace_git/baidu-charity/static/assets/css/effect.css",
 		"/D/workspace_git/baidu-charity/static/assets/css/effect2.css",
 		"/D/workspace_git/baidu-charity/sftp-config.json",
-		"/D/workspace_git/baidu-charity/focus-list.html",
-		"/D/workspace_git/baidu-charity/finish-list.html",
 		"/D/workspace_git/baidu-charity/union.html",
 		"/D/workspace_git/baidu-charity/info.html",
 		"/D/workspace_git/baidu-charity/finish.html",
@@ -664,6 +666,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"floatreturn",
+			"g-left",
 			";\n",
 			"ally",
 			"page-finish",
@@ -773,6 +777,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"tile-dt",
 			"/res",
 			"\"../res",
 			"../res/",
@@ -792,18 +797,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "focus-list.html",
+					"file": "finish.html",
 					"settings":
 					{
-						"buffer_size": 10928,
+						"buffer_size": 13091,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2146,
-								2146
+								7596,
+								7596
 							]
 						],
 						"settings":
@@ -816,7 +821,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 826.0,
+						"translation.y": 3850.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "static/assets/css/effect2.css",
+					"settings":
+					{
+						"buffer_size": 2538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								398,
+								398
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -824,23 +860,23 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "static/assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 43341,
+						"buffer_size": 45216,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								33561,
-								33561
+								29135,
+								29135
 							]
 						],
 						"settings":
@@ -852,17 +888,17 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 37833.0,
+						"translation.y": 36491.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "static/assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 50890,
+						"buffer_size": 53742,
 						"regions":
 						{
 						},
@@ -882,37 +918,6 @@
 						},
 						"translation.x": 486.0,
 						"translation.y": 4290.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "static/assets/css/effect3.css",
-					"settings":
-					{
-						"buffer_size": 2906,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								354,
-								354
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -948,7 +953,7 @@
 		"cols":
 		[
 			0.0,
-			0.335489106051,
+			0.786620530565,
 			1.0
 		],
 		"rows":
@@ -991,6 +996,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 385.0,
+	"side_bar_width": 186.0,
 	"status_bar_visible": true
 }
