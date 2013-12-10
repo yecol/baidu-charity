@@ -388,10 +388,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "union.html",
 			"settings":
 			{
-				"buffer_size": 46605,
+				"buffer_size": 29191,
 				"line_ending": "Windows"
 			}
 		},
@@ -399,8 +399,16 @@
 			"file": "static/assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 45802,
+				"buffer_size": 46547,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 55828,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -520,6 +528,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/LEIXUJUN/AppData/Roaming/Sublime Text 2/Packages/User/SFTP.errors.log",
+		"/D/yecol/baidu-charity/index.html",
 		"/D/xampp/htdocs/baidu-charity/focus-list.html",
 		"/D/xampp/htdocs/baidu-charity/static/assets/css/style.css",
 		"/D/xampp/htdocs/baidu-charity/static/assets/css/effect2.css",
@@ -549,7 +559,6 @@
 		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/index.html",
 		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/focus.html",
 		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/static/assets/img/btn-hover.png",
-		"/C/Users/LEIXUJUN/AppData/Roaming/Sublime Text 2/Packages/User/SFTP.errors.log",
 		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/sftp-config.json",
 		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/static/assets/css/form.css",
 		"/D/workspace_git/rcbd/Index_V3.css",
@@ -657,6 +666,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"arrow",
 			"frame-right",
 			"focus",
 			"finish",
@@ -792,23 +802,23 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "union.html",
 					"settings":
 					{
-						"buffer_size": 46605,
+						"buffer_size": 29191,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								838,
-								838
+								26973,
+								26973
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": true,
+							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
@@ -816,7 +826,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 28667.0,
+						"translation.y": 13215.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -832,15 +842,15 @@
 					"file": "static/assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 45802,
+						"buffer_size": 46547,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								36677,
-								36677
+								43541,
+								43541
 							]
 						],
 						"settings":
@@ -852,7 +862,36 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 45488.0,
+						"translation.y": 48424.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "static/assets/css/style.css",
+					"settings":
+					{
+						"buffer_size": 55828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3572,
+								3572
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
