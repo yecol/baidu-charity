@@ -4,20 +4,44 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-weight"
+			],
+			[
 				"padding",
 				"padding-top"
 			],
 			[
-				"back",
-				"background"
+				"lis",
+				"list-style-image"
 			],
 			[
-				"font",
-				"font-size"
+				"list",
+				"list-style-image"
 			],
 			[
 				"text",
 				"text-decoration"
+			],
+			[
+				"secf",
+				"secf-right"
+			],
+			[
+				"he",
+				"height	height"
+			],
+			[
+				"rgb",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"back",
+				"background"
 			],
 			[
 				"mar",
@@ -34,10 +58,6 @@
 			[
 				"margi",
 				"margin-right"
-			],
-			[
-				"bo",
-				"border-radius"
 			],
 			[
 				"c",
@@ -208,16 +228,8 @@
 				"font-weight"
 			],
 			[
-				"list",
-				"list-style-position"
-			],
-			[
 				"i",
 				"inline"
-			],
-			[
-				"lis",
-				"list-style"
 			],
 			[
 				"mr",
@@ -388,10 +400,10 @@
 	"buffers":
 	[
 		{
-			"file": "union.html",
+			"file": "finish.html",
 			"settings":
 			{
-				"buffer_size": 29191,
+				"buffer_size": 13163,
 				"line_ending": "Windows"
 			}
 		},
@@ -399,7 +411,7 @@
 			"file": "static/assets/css/style.less",
 			"settings":
 			{
-				"buffer_size": 46547,
+				"buffer_size": 46407,
 				"line_ending": "Windows"
 			}
 		},
@@ -407,7 +419,7 @@
 			"file": "static/assets/css/style.css",
 			"settings":
 			{
-				"buffer_size": 55828,
+				"buffer_size": 55010,
 				"line_ending": "Unix"
 			}
 		}
@@ -528,15 +540,16 @@
 	},
 	"file_history":
 	[
-		"/C/Users/LEIXUJUN/AppData/Roaming/Sublime Text 2/Packages/User/SFTP.errors.log",
-		"/D/yecol/baidu-charity/index.html",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/skydrive/AppData/hosts/hosts",
+		"/D/xampp/htdocs/baidu-charity/focus.html",
+		"/D/xampp/htdocs/baidu-charity/info.html",
 		"/D/xampp/htdocs/baidu-charity/focus-list.html",
+		"/D/xampp/htdocs/baidu-charity/info-list.html",
+		"/D/xampp/htdocs/baidu-charity/index.html",
 		"/D/xampp/htdocs/baidu-charity/static/assets/css/style.css",
 		"/D/xampp/htdocs/baidu-charity/static/assets/css/effect2.css",
-		"/D/xampp/htdocs/baidu-charity/info.html",
 		"/D/xampp/htdocs/baidu-charity/finish.html",
-		"/D/xampp/htdocs/baidu-charity/focus.html",
-		"/D/xampp/htdocs/baidu-charity/index.html",
 		"/D/workspace_git/baidu-charity/info-list.html",
 		"/D/workspace_git/baidu-charity/focus.html",
 		"/D/workspace_git/baidu-charity/finish-list.html",
@@ -559,6 +572,7 @@
 		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/index.html",
 		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/focus.html",
 		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/static/assets/img/btn-hover.png",
+		"/C/Users/LEIXUJUN/AppData/Roaming/Sublime Text 2/Packages/User/SFTP.errors.log",
 		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/sftp-config.json",
 		"/C/Users/LEIXUJUN/Desktop/yecol/baidu-charity/static/assets/css/form.css",
 		"/D/workspace_git/rcbd/Index_V3.css",
@@ -597,7 +611,6 @@
 		"/D/workspace_git/yecols.cn/photos/travel-taiwan.php",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/Less2Css/README.md",
 		"/C/Users/Yecol/AppData/Roaming/Sublime Text 2/Packages/LESS/README.md",
-		"/C/Windows/System32/drivers/etc/hosts",
 		"/D/workspace_git/yecols.cn/rebuild.html",
 		"/D/workspace_git/yecols.cn/index.html",
 		"/D/Servers/xampp/xampp/htdocs/lhycn/inc/templates/albums.tpl",
@@ -652,7 +665,7 @@
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -666,7 +679,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"arrow",
+			"tile-tl",
+			"tile-btm",
+			"github",
+			".content",
+			".content ",
+			"box-sha",
+			"tile-desc",
+			"frame-left",
+			"fmc",
 			"frame-right",
 			"focus",
 			"finish",
@@ -802,18 +823,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "union.html",
+					"file": "finish.html",
 					"settings":
 					{
-						"buffer_size": 29191,
+						"buffer_size": 13163,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								26973,
-								26973
+								3613,
+								3613
 							]
 						],
 						"settings":
@@ -826,7 +847,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 13215.0,
+						"translation.y": 1373.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -842,15 +863,15 @@
 					"file": "static/assets/css/style.less",
 					"settings":
 					{
-						"buffer_size": 46547,
+						"buffer_size": 46407,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								43541,
-								43541
+								39336,
+								39336
 							]
 						],
 						"settings":
@@ -862,7 +883,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 48424.0,
+						"translation.y": 48252.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -872,15 +893,15 @@
 					"file": "static/assets/css/style.css",
 					"settings":
 					{
-						"buffer_size": 55828,
+						"buffer_size": 55010,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3572,
-								3572
+								0,
+								0
 							]
 						],
 						"settings":
@@ -927,7 +948,7 @@
 		"cols":
 		[
 			0.0,
-			0.477508650519,
+			0.29729761028,
 			1.0
 		],
 		"rows":
